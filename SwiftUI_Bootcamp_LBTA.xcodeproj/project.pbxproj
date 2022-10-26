@@ -12,6 +12,7 @@
 		AC40F13C2909396200BC29DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC40F13B2909396200BC29DF /* Assets.xcassets */; };
 		AC40F13F2909396200BC29DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC40F13E2909396200BC29DF /* Preview Assets.xcassets */; };
 		AC40F14629093BD000BC29DF /* LongPressGustureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40F14529093BD000BC29DF /* LongPressGustureBootcamp.swift */; };
+		AC40F1482909561D00BC29DF /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40F1472909561D00BC29DF /* MagnificationGestureBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		AC40F13B2909396200BC29DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC40F13E2909396200BC29DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC40F14529093BD000BC29DF /* LongPressGustureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGustureBootcamp.swift; sourceTree = "<group>"; };
+		AC40F1472909561D00BC29DF /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				AC40F1372909396100BC29DF /* SwiftUI_Bootcamp_LBTAApp.swift */,
 				AC40F1392909396100BC29DF /* ContentView.swift */,
 				AC40F14529093BD000BC29DF /* LongPressGustureBootcamp.swift */,
+				AC40F1472909561D00BC29DF /* MagnificationGestureBootcamp.swift */,
 				AC40F13B2909396200BC29DF /* Assets.xcassets */,
 				AC40F13D2909396200BC29DF /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				AC40F14629093BD000BC29DF /* LongPressGustureBootcamp.swift in Sources */,
 				AC40F13A2909396100BC29DF /* ContentView.swift in Sources */,
+				AC40F1482909561D00BC29DF /* MagnificationGestureBootcamp.swift in Sources */,
 				AC40F1382909396100BC29DF /* SwiftUI_Bootcamp_LBTAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
