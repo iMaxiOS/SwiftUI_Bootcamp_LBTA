@@ -8,16 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		AC3A6FFC290A61030094C0F0 /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6FFB290A61020094C0F0 /* RotationGestureBootcamp.swift */; };
+		AC3A6FFE290A64A90094C0F0 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6FFD290A64A90094C0F0 /* DragGestureBootcamp.swift */; };
 		AC40F1382909396100BC29DF /* SwiftUI_Bootcamp_LBTAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40F1372909396100BC29DF /* SwiftUI_Bootcamp_LBTAApp.swift */; };
 		AC40F13A2909396100BC29DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40F1392909396100BC29DF /* ContentView.swift */; };
 		AC40F13C2909396200BC29DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC40F13B2909396200BC29DF /* Assets.xcassets */; };
 		AC40F13F2909396200BC29DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC40F13E2909396200BC29DF /* Preview Assets.xcassets */; };
 		AC40F14629093BD000BC29DF /* LongPressGustureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40F14529093BD000BC29DF /* LongPressGustureBootcamp.swift */; };
 		AC40F1482909561D00BC29DF /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40F1472909561D00BC29DF /* MagnificationGestureBootcamp.swift */; };
+		AC5F4CC8290A858000A84A2E /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F4CC7290A858000A84A2E /* DragGestureBootcamp2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC3A6FFB290A61020094C0F0 /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
+		AC3A6FFD290A64A90094C0F0 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
 		AC40F1342909396100BC29DF /* SwiftUI_Bootcamp_LBTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Bootcamp_LBTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC40F1372909396100BC29DF /* SwiftUI_Bootcamp_LBTAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Bootcamp_LBTAApp.swift; sourceTree = "<group>"; };
 		AC40F1392909396100BC29DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +28,7 @@
 		AC40F13E2909396200BC29DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC40F14529093BD000BC29DF /* LongPressGustureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGustureBootcamp.swift; sourceTree = "<group>"; };
 		AC40F1472909561D00BC29DF /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
+		AC5F4CC7290A858000A84A2E /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				AC40F14529093BD000BC29DF /* LongPressGustureBootcamp.swift */,
 				AC40F1472909561D00BC29DF /* MagnificationGestureBootcamp.swift */,
 				AC3A6FFB290A61020094C0F0 /* RotationGestureBootcamp.swift */,
+				AC3A6FFD290A64A90094C0F0 /* DragGestureBootcamp.swift */,
+				AC5F4CC7290A858000A84A2E /* DragGestureBootcamp2.swift */,
 				AC40F13B2909396200BC29DF /* Assets.xcassets */,
 				AC40F13D2909396200BC29DF /* Preview Content */,
 			);
@@ -146,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5F4CC8290A858000A84A2E /* DragGestureBootcamp2.swift in Sources */,
+				AC3A6FFE290A64A90094C0F0 /* DragGestureBootcamp.swift in Sources */,
 				AC40F14629093BD000BC29DF /* LongPressGustureBootcamp.swift in Sources */,
 				AC40F13A2909396100BC29DF /* ContentView.swift in Sources */,
 				AC40F1482909561D00BC29DF /* MagnificationGestureBootcamp.swift in Sources */,
