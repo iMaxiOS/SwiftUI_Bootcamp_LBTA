@@ -24,6 +24,7 @@
 		AC5F4CC8290A858000A84A2E /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F4CC7290A858000A84A2E /* DragGestureBootcamp2.swift */; };
 		AC5F4CCA290A9D6700A84A2E /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F4CC9290A9D6700A84A2E /* ScrollViewReaderBootcamp.swift */; };
 		AC5F4CCC290AC7AC00A84A2E /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F4CCB290AC7AC00A84A2E /* GeometryReaderBootcamp.swift */; };
+		ACE02D1929154C0E002840CF /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE02D1829154C0E002840CF /* HapticsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		AC5F4CC7290A858000A84A2E /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
 		AC5F4CC9290A9D6700A84A2E /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		AC5F4CCB290AC7AC00A84A2E /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
+		ACE02D1829154C0E002840CF /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				AC549D3D290BA99500B34EB7 /* MultipleSheetsBootcamp.swift */,
 				AC549D3F290BCE1C00B34EB7 /* MaskBootcamp.swift */,
 				AC549D41290BE01A00B34EB7 /* SoundBootcamp.swift */,
+				ACE02D1829154C0E002840CF /* HapticsBootcamp.swift */,
 				AC549D45290BE3C600B34EB7 /* Sounds */,
 				AC40F13B2909396200BC29DF /* Assets.xcassets */,
 				AC40F13D2909396200BC29DF /* Preview Content */,
@@ -197,6 +200,7 @@
 				AC40F1482909561D00BC29DF /* MagnificationGestureBootcamp.swift in Sources */,
 				AC549D42290BE01A00B34EB7 /* SoundBootcamp.swift in Sources */,
 				AC5F4CCC290AC7AC00A84A2E /* GeometryReaderBootcamp.swift in Sources */,
+				ACE02D1929154C0E002840CF /* HapticsBootcamp.swift in Sources */,
 				AC40F1382909396100BC29DF /* SwiftUI_Bootcamp_LBTAApp.swift in Sources */,
 				AC3A6FFC290A61030094C0F0 /* RotationGestureBootcamp.swift in Sources */,
 			);
