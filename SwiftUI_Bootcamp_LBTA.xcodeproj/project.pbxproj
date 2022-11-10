@@ -21,6 +21,7 @@
 		AC549D44290BE0E400B34EB7 /* com.apple.audio.DeviceSettings.plist~orig in Resources */ = {isa = PBXBuildFile; fileRef = AC549D43290BE0E400B34EB7 /* com.apple.audio.DeviceSettings.plist~orig */; };
 		AC549D47290BE3D300B34EB7 /* Duck-quack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC549D46290BE3D300B34EB7 /* Duck-quack.mp3 */; };
 		AC549D49290BE3DA00B34EB7 /* Birds-chirping-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC549D48290BE3DA00B34EB7 /* Birds-chirping-sound-effect.mp3 */; };
+		AC5D7D7C291D429F009C02F6 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D7D7B291D429F009C02F6 /* HashableBootcamp.swift */; };
 		AC5F4CC8290A858000A84A2E /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F4CC7290A858000A84A2E /* DragGestureBootcamp2.swift */; };
 		AC5F4CCA290A9D6700A84A2E /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F4CC9290A9D6700A84A2E /* ScrollViewReaderBootcamp.swift */; };
 		AC5F4CCC290AC7AC00A84A2E /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F4CCB290AC7AC00A84A2E /* GeometryReaderBootcamp.swift */; };
@@ -44,6 +45,7 @@
 		AC549D43290BE0E400B34EB7 /* com.apple.audio.DeviceSettings.plist~orig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "com.apple.audio.DeviceSettings.plist~orig"; sourceTree = "<group>"; };
 		AC549D46290BE3D300B34EB7 /* Duck-quack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Duck-quack.mp3"; sourceTree = "<group>"; };
 		AC549D48290BE3DA00B34EB7 /* Birds-chirping-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Birds-chirping-sound-effect.mp3"; sourceTree = "<group>"; };
+		AC5D7D7B291D429F009C02F6 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		AC5F4CC7290A858000A84A2E /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
 		AC5F4CC9290A9D6700A84A2E /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		AC5F4CCB290AC7AC00A84A2E /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				AC549D41290BE01A00B34EB7 /* SoundBootcamp.swift */,
 				ACE02D1829154C0E002840CF /* HapticsBootcamp.swift */,
 				ACE02D1A29154F37002840CF /* LocalPushNotificationsBootcamp.swift */,
+				AC5D7D7B291D429F009C02F6 /* HashableBootcamp.swift */,
 				AC549D45290BE3C600B34EB7 /* Sounds */,
 				AC40F13B2909396200BC29DF /* Assets.xcassets */,
 				AC40F13D2909396200BC29DF /* Preview Content */,
@@ -193,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5D7D7C291D429F009C02F6 /* HashableBootcamp.swift in Sources */,
 				AC5F4CC8290A858000A84A2E /* DragGestureBootcamp2.swift in Sources */,
 				AC549D40290BCE1C00B34EB7 /* MaskBootcamp.swift in Sources */,
 				AC3A6FFE290A64A90094C0F0 /* DragGestureBootcamp.swift in Sources */,
