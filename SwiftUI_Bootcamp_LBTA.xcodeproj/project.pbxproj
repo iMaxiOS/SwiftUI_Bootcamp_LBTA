@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC1761BF2923831F006E6700 /* SelectedServerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761BE2923831F006E6700 /* SelectedServerBootcamp.swift */; };
+		AC1761C8292385AB006E6700 /* NotificationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C1292385AB006E6700 /* NotificationToken.swift */; };
+		AC1761C9292385AB006E6700 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C2292385AB006E6700 /* UserDefaults.swift */; };
+		AC1761CA292385AB006E6700 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C3292385AB006E6700 /* Constants.swift */; };
+		AC1761CB292385AB006E6700 /* Ext+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C4292385AB006E6700 /* Ext+View.swift */; };
+		AC1761CC292385AB006E6700 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = AC1761C5292385AB006E6700 /* Fonts */; };
+		AC1761CD292385AB006E6700 /* Ext+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C6292385AB006E6700 /* Ext+Colors.swift */; };
+		AC1761CE292385AB006E6700 /* Ext+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C7292385AB006E6700 /* Ext+Image.swift */; };
+		AC1761D129238651006E6700 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761D029238651006E6700 /* RoundedCorner.swift */; };
 		AC3A6FFC290A61030094C0F0 /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6FFB290A61020094C0F0 /* RotationGestureBootcamp.swift */; };
 		AC3A6FFE290A64A90094C0F0 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6FFD290A64A90094C0F0 /* DragGestureBootcamp.swift */; };
 		AC40F1382909396100BC29DF /* SwiftUI_Bootcamp_LBTAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40F1372909396100BC29DF /* SwiftUI_Bootcamp_LBTAApp.swift */; };
@@ -31,6 +40,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC1761BE2923831F006E6700 /* SelectedServerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedServerBootcamp.swift; sourceTree = "<group>"; };
+		AC1761C1292385AB006E6700 /* NotificationToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationToken.swift; sourceTree = "<group>"; };
+		AC1761C2292385AB006E6700 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		AC1761C3292385AB006E6700 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AC1761C4292385AB006E6700 /* Ext+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+View.swift"; sourceTree = "<group>"; };
+		AC1761C5292385AB006E6700 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		AC1761C6292385AB006E6700 /* Ext+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+Colors.swift"; sourceTree = "<group>"; };
+		AC1761C7292385AB006E6700 /* Ext+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+Image.swift"; sourceTree = "<group>"; };
+		AC1761CF292385F5006E6700 /* SwiftUI-Bootcamp-LBTA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-Bootcamp-LBTA-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AC1761D029238651006E6700 /* RoundedCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 		AC3A6FFB290A61020094C0F0 /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
 		AC3A6FFD290A64A90094C0F0 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
 		AC40F1342909396100BC29DF /* SwiftUI_Bootcamp_LBTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Bootcamp_LBTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +85,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC1761C029238592006E6700 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AC1761D029238651006E6700 /* RoundedCorner.swift */,
+				AC1761C5292385AB006E6700 /* Fonts */,
+				AC1761C3292385AB006E6700 /* Constants.swift */,
+				AC1761C6292385AB006E6700 /* Ext+Colors.swift */,
+				AC1761C7292385AB006E6700 /* Ext+Image.swift */,
+				AC1761C4292385AB006E6700 /* Ext+View.swift */,
+				AC1761C1292385AB006E6700 /* NotificationToken.swift */,
+				AC1761C2292385AB006E6700 /* UserDefaults.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		AC40F12B2909396100BC29DF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +119,8 @@
 		AC40F1362909396100BC29DF /* SwiftUI_Bootcamp_LBTA */ = {
 			isa = PBXGroup;
 			children = (
+				AC1761CF292385F5006E6700 /* SwiftUI-Bootcamp-LBTA-Info.plist */,
+				AC1761C029238592006E6700 /* Extension */,
 				AC40F1372909396100BC29DF /* SwiftUI_Bootcamp_LBTAApp.swift */,
 				AC40F1392909396100BC29DF /* ContentView.swift */,
 				AC40F14529093BD000BC29DF /* LongPressGustureBootcamp.swift */,
@@ -101,6 +137,7 @@
 				ACE02D1A29154F37002840CF /* LocalPushNotificationsBootcamp.swift */,
 				AC5D7D7B291D429F009C02F6 /* HashableBootcamp.swift */,
 				AC588B5329227591003BF46E /* ArraysBootcamp.swift */,
+				AC1761BE2923831F006E6700 /* SelectedServerBootcamp.swift */,
 				AC549D45290BE3C600B34EB7 /* Sounds */,
 				AC40F13B2909396200BC29DF /* Assets.xcassets */,
 				AC40F13D2909396200BC29DF /* Preview Content */,
@@ -187,6 +224,7 @@
 				AC549D49290BE3DA00B34EB7 /* Birds-chirping-sound-effect.mp3 in Resources */,
 				AC40F13F2909396200BC29DF /* Preview Assets.xcassets in Resources */,
 				AC549D47290BE3D300B34EB7 /* Duck-quack.mp3 in Resources */,
+				AC1761CC292385AB006E6700 /* Fonts in Resources */,
 				AC549D44290BE0E400B34EB7 /* com.apple.audio.DeviceSettings.plist~orig in Resources */,
 				AC40F13C2909396200BC29DF /* Assets.xcassets in Resources */,
 			);
@@ -199,18 +237,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1761D129238651006E6700 /* RoundedCorner.swift in Sources */,
 				AC5D7D7C291D429F009C02F6 /* HashableBootcamp.swift in Sources */,
 				AC5F4CC8290A858000A84A2E /* DragGestureBootcamp2.swift in Sources */,
+				AC1761CE292385AB006E6700 /* Ext+Image.swift in Sources */,
 				AC549D40290BCE1C00B34EB7 /* MaskBootcamp.swift in Sources */,
 				AC3A6FFE290A64A90094C0F0 /* DragGestureBootcamp.swift in Sources */,
 				AC40F14629093BD000BC29DF /* LongPressGustureBootcamp.swift in Sources */,
+				AC1761CD292385AB006E6700 /* Ext+Colors.swift in Sources */,
+				AC1761BF2923831F006E6700 /* SelectedServerBootcamp.swift in Sources */,
 				AC5F4CCA290A9D6700A84A2E /* ScrollViewReaderBootcamp.swift in Sources */,
 				AC588B5429227591003BF46E /* ArraysBootcamp.swift in Sources */,
 				AC549D3E290BA99500B34EB7 /* MultipleSheetsBootcamp.swift in Sources */,
 				AC40F13A2909396100BC29DF /* ContentView.swift in Sources */,
+				AC1761CB292385AB006E6700 /* Ext+View.swift in Sources */,
 				AC40F1482909561D00BC29DF /* MagnificationGestureBootcamp.swift in Sources */,
 				AC549D42290BE01A00B34EB7 /* SoundBootcamp.swift in Sources */,
+				AC1761C8292385AB006E6700 /* NotificationToken.swift in Sources */,
+				AC1761C9292385AB006E6700 /* UserDefaults.swift in Sources */,
 				AC5F4CCC290AC7AC00A84A2E /* GeometryReaderBootcamp.swift in Sources */,
+				AC1761CA292385AB006E6700 /* Constants.swift in Sources */,
 				ACE02D1929154C0E002840CF /* HapticsBootcamp.swift in Sources */,
 				ACE02D1B29154F37002840CF /* LocalPushNotificationsBootcamp.swift in Sources */,
 				AC40F1382909396100BC29DF /* SwiftUI_Bootcamp_LBTAApp.swift in Sources */,
@@ -346,6 +392,7 @@
 				DEVELOPMENT_TEAM = R4XB56HC9M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Bootcamp-LBTA-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -376,6 +423,7 @@
 				DEVELOPMENT_TEAM = R4XB56HC9M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Bootcamp-LBTA-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
