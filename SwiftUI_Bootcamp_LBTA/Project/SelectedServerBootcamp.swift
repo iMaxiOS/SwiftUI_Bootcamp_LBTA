@@ -24,7 +24,7 @@ struct SelectedServerBootcamp: View {
 
                     Spacer()
 
-                    VStack(spacing: Constants.device_5_5s_5SE ? 30 : 70) {
+                    VStack(spacing: Constants.smallDevice ? 30 : 70) {
                         smartConnectSection
                         navigationLinkToSelectServer
                     }

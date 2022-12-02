@@ -34,4 +34,5 @@ extension Image {
     static let globe = "globe_icon"
     static let gaming = "gaming_icon"
     static let streaming = "streaming_icon"
+    static let topCircle = "top_circle"
 }
