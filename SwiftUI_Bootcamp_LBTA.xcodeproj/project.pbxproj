@@ -43,6 +43,7 @@
 		AC5F4CCC290AC7AC00A84A2E /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F4CCB290AC7AC00A84A2E /* GeometryReaderBootcamp.swift */; };
 		ACE02D1929154C0E002840CF /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE02D1829154C0E002840CF /* HapticsBootcamp.swift */; };
 		ACE02D1B29154F37002840CF /* LocalPushNotificationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE02D1A29154F37002840CF /* LocalPushNotificationsBootcamp.swift */; };
+		CA40CEF62ADD638500706735 /* DownloadWithEscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA40CEF52ADD638500706735 /* DownloadWithEscapingBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		AC5F4CCB290AC7AC00A84A2E /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		ACE02D1829154C0E002840CF /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 		ACE02D1A29154F37002840CF /* LocalPushNotificationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPushNotificationsBootcamp.swift; sourceTree = "<group>"; };
+		CA40CEF52ADD638500706735 /* DownloadWithEscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				AC48BE02293A3547009A2C75 /* BackgroundTraeadBootcamp.swift */,
 				AC4991C829474D430070BC82 /* CodableBootcamp.swift */,
 				AC4991CA29475F080070BC82 /* DownloadJSONWithCombine.swift */,
+				CA40CEF52ADD638500706735 /* DownloadWithEscapingBootcamp.swift */,
 				AC48BDFF293A2451009A2C75 /* FruitsContainer.xcdatamodeld */,
 				AC549D45290BE3C600B34EB7 /* Sounds */,
 				AC40F13B2909396200BC29DF /* Assets.xcassets */,
@@ -273,6 +276,7 @@
 				AC549D40290BCE1C00B34EB7 /* MaskBootcamp.swift in Sources */,
 				AC3A6FFE290A64A90094C0F0 /* DragGestureBootcamp.swift in Sources */,
 				AC40F14629093BD000BC29DF /* LongPressGustureBootcamp.swift in Sources */,
+				CA40CEF62ADD638500706735 /* DownloadWithEscapingBootcamp.swift in Sources */,
 				AC1761CD292385AB006E6700 /* Ext+Colors.swift in Sources */,
 				AC4991C929474D430070BC82 /* CodableBootcamp.swift in Sources */,
 				AC1761BF2923831F006E6700 /* SelectedServerBootcamp.swift in Sources */,
@@ -430,7 +434,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,7 +465,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -81,6 +81,7 @@ final class CustomerViewModel: ObservableObject {
 struct CodableBootcamp: View {
     
     @StateObject private var vm = CustomerViewModel()
+     
     var body: some View {
         VStack(spacing: 20) {
             if let customer = vm.customer {
