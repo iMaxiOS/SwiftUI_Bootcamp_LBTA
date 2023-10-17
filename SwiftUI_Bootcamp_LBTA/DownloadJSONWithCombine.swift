@@ -72,7 +72,7 @@ struct DownloadJSONWithCombine: View {
                             .font(.footnote)
                             .fontWeight(.bold)
                             .lineLimit(2)
-                            .foregroundColor(.textFieldColor)
+                            .foregroundColor(.textField)
                         
                         Text(item.body)
                             .font(.caption2)

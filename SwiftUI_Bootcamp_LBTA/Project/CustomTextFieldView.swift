@@ -116,7 +116,7 @@ struct CustomTextFieldView: View {
             HStack {
                 TextField("", text: $title.text)
                     .font(.custom(Font.Lato.bold, size: 17))
-                    .foregroundColor(Color.textFieldColor)
+                    .foregroundColor(Color(.textField))
                     .submitLabel(.next)
                     .keyboardType(.emailAddress)
                     .disableAutocorrection(true)
@@ -142,18 +142,18 @@ struct CustomTextFieldView: View {
                 
                 Image(validationField() ? Image.checkmark : Image.xmark)
                     .renderingMode(.template)
-                    .foregroundColor(validationField() ? Color.blueColor : endEditingField ? Color.redColor : Color.grayColor)
+                    .foregroundColor(validationField() ? Color(.blue) : endEditingField ? Color.red : Color(.gray))
                     .frame(width: 26, height: 26)
             }
             
             Divider()
                 .frame(height: 1)
-                .background(validationField() ? Color.blueColor : endEditingField ? Color.redColor : Color.grayColor)
+                .background(validationField() ? Color(.blue) : endEditingField ? Color.red : Color(.gray))
             
             if endEditingField {
                 if !title.validation(type: currentField, equalWithText: comparableText.text) && !title.text.isEmpty {
                     Text(currentField.errorMessage)
-                        .foregroundColor(Color.redColor)
+                        .foregroundColor(Color.red)
                         .font(.custom(Font.Lato.bold, size: 10))
                         .frame(height: currentField == .email ? 16 : 26)
                         .multilineTextAlignment(.leading)
@@ -162,7 +162,7 @@ struct CustomTextFieldView: View {
             }
         }
         .animation(.spring(), value: title.text.isEmpty)
-        .foregroundColor(Color.grayColor)
+        .foregroundColor(Color(.gray))
     }
     
     /*
@@ -171,13 +171,13 @@ struct CustomTextFieldView: View {
         VStack(alignment: .leading, spacing: 15) {
             Text("Confirmation code")
                 .font(.custom(Font.Lato.bold, size: 17))
-                .foregroundColor(Color.grayColor)
+                .foregroundColor(Color(.gray))
             
             HStack(spacing: 14) {
                 ForEach(0..<6, id: \.self) { index in
                     VStack(spacing: 8) {
                         TextField("", text: $title.text)
-                            .foregroundColor(Color.textFieldColor)
+                            .foregroundColor(Color(.textField))
                             .font(.custom(Font.Lato.bold, size: 24))
                             .keyboardType(.numberPad)
                             .textContentType(.oneTimeCode)
@@ -201,7 +201,7 @@ struct CustomTextFieldView: View {
 
                         Rectangle()
                             .frame(width: 45, height: 2)
-                            .foregroundColor(Color.grayColor)
+                            .foregroundColor(Color(.gray))
                     }
                     .frame(height: 40)
                 }
@@ -221,7 +221,7 @@ struct CustomTextFieldView: View {
                 HStack {
                     SecureField("", text: $title.text)
                         .font(.custom(Font.Lato.bold, size: 17))
-                        .foregroundColor(Color.textFieldColor)
+                        .foregroundColor(Color(.textField))
                         .disableAutocorrection(true)
                         .textInputAutocapitalization(.never)
                         .padding(.vertical, 8)
@@ -246,18 +246,18 @@ struct CustomTextFieldView: View {
                     
                     Image(validationField() ? Image.checkmark : Image.xmark)
                         .renderingMode(.template)
-                        .foregroundColor(validationField() ? Color.blueColor : endEditingField ? Color.redColor : Color.grayColor)
+                        .foregroundColor(validationField() ? Color(.blue) : endEditingField ? Color.red : Color(.gray))
                         .frame(width: 26, height: 26)
                 }
                 
                 Divider()
                     .frame(height: 1)
-                    .background(validationField() ? Color.blueColor : endEditingField ? Color.redColor : Color.grayColor)
+                    .background(validationField() ? Color(.blue) : endEditingField ? Color.red : Color(.gray))
                 
                 if endEditingField {
                     if !title.validation(type: currentField, equalWithText: comparableText.text) && !title.text.isEmpty {
                         Text(currentField.errorMessage)
-                            .foregroundColor(Color.redColor)
+                            .foregroundColor(Color(.red))
                             .font(.custom(Font.Lato.bold, size: 10))
                             .frame(height: currentField == .username ? 16 : 26)
                             .multilineTextAlignment(.leading)
@@ -266,7 +266,7 @@ struct CustomTextFieldView: View {
                 }
             }
             .animation(.spring(), value: title.text.isEmpty)
-            .foregroundColor(Color.grayColor)
+            .foregroundColor(Color(.gray))
 //        } else {
 //            SecureField(currentField.placeholder, text: $title.text)
 //                .padding()

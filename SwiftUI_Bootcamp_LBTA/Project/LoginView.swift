@@ -38,7 +38,7 @@ struct LoginView: View {
                             signUpSectionView
                             signInWithAnotherApplicationView
                         }
-                        .foregroundColor(Color.blueColor)
+                        .foregroundColor(Color(.blue))
                         .onSubmit {
                             switch focusedField {
                             case .username:
@@ -83,11 +83,11 @@ struct LoginView: View {
             Spacer()
             VStack {
                 Text("Welcome to")
-                    .foregroundColor(Color.blueColor)
+                    .foregroundColor(Color(.blue))
                     .font(.custom(Font.Lato.light, size: 24))
                 
                 Text("Shark VPN")
-                    .foregroundColor(Color.blueColor)
+                    .foregroundColor(Color(.blue))
                     .font(.custom(Font.Lato.bold, size: 24))
             }
         }
@@ -97,7 +97,7 @@ struct LoginView: View {
     private var headerTextView: some View {
         VStack(spacing: 0) {
             Text("Log In")
-                .foregroundColor(Color.blueColor)
+                .foregroundColor(Color(.blue))
                 .font(.custom(Font.Lato.bold, size: 21))
                 .padding(.top, 45)
                 .padding(.bottom, 10)
@@ -109,11 +109,11 @@ struct LoginView: View {
             
         } label: {
             Text("Log In")
-                .foregroundColor(Color.systemBackground)
+                .foregroundColor(Color(.systemBackground))
                 .font(.custom(Font.Lato.bold, size: 17))
                 .frame(height: 60)
                 .frame(maxWidth: .infinity)
-                .background(Color.blueColor)
+                .background(Color(.blue))
                 .cornerRadius(14)
                 .padding(.top, 20)
         }
@@ -145,7 +145,7 @@ struct LoginView: View {
         VStack {
             Text("Don’t have an account yet?")
                 .font(.custom(Font.Lato.bold, size: 14))
-                .foregroundColor(Color.grayColor)
+                .foregroundColor(Color(.gray))
                 .padding(.top, 25)
             
             
@@ -153,18 +153,18 @@ struct LoginView: View {
                 
             } label: {
                 Text("Sign Up")
-                    .foregroundColor(Color.systemBackground)
+                    .foregroundColor(Color(.systemBackground))
                     .font(.custom(Font.Lato.bold, size: 17))
                     .frame(height: 60)
                     .frame(maxWidth: .infinity)
-                    .background(Color.blueColor)
+                    .background(Color(.blue))
                     .cornerRadius(14)
                     .padding(.top, 15)
             }
             
             Text("—  Or  —")
                 .font(.custom(Font.Lato.bold, size: 17))
-                .foregroundColor(Color.grayColor)
+                .foregroundColor(Color(.gray))
                 .padding(.vertical, 30)
         }
     }
@@ -187,7 +187,7 @@ struct LoginView: View {
             } label: {
                 Image(Image.white_facebook)
                     .frame(width: 50, height: 50)
-                    .background(Color.chambrayColor)
+                    .background(Color(.chambray))
                     .cornerRadius(10)
             }
             
@@ -198,7 +198,7 @@ struct LoginView: View {
             } label: {
                 Image(Image.white_google)
                     .frame(width: 50, height: 50)
-                    .background(Color.redColor)
+                    .background(Color(.red))
                     .cornerRadius(10)
             }
         }

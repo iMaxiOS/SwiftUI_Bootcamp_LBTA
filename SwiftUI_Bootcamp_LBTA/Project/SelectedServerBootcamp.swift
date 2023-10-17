@@ -57,7 +57,7 @@ struct SelectedServerBootcamp: View {
                 Circle()
                     .fill(
                         RadialGradient(
-                            gradient: Gradient(colors: [Color.systemBackground, Color.systemBackground, Color.notConnectColor]),
+                            gradient: Gradient(colors: [Color(.systemBackground), Color(.systemBackground), Color.notConnect]),
                             center: .center,
                             startRadius: 0,
                             endRadius: 90
@@ -66,12 +66,12 @@ struct SelectedServerBootcamp: View {
                     .frame(width: 192, height: 192)
                 
                 Circle()
-                    .fill(Color.systemBackground)
+                    .fill(Color(.systemBackground))
                     .frame(width: 148, height: 148)
                 
                 Image(Image.power)
                     .renderingMode(.template)
-                    .foregroundColor(Color.grayColor)
+                    .foregroundColor(Color(.gray))
                     .frame(width: 40, height: 44)
             }
         }
@@ -85,15 +85,15 @@ struct SelectedServerBootcamp: View {
             } label: {
                 ZStack {
                     RoundedRectangle(cornerRadius: 50)
-                        .fill(Color.blueColor)
+                        .fill(Color(.blue))
                         .frame(width: 80, height: 40)
                     VStack(spacing: 0) {
                         Text("Upgrade to")
                             .font(.custom(Font.Lato.bold, size: 10))
-                            .foregroundColor(Color.systemBackground)
+                            .foregroundColor(Color(.systemBackground))
                         Text("PRO")
                             .font(.custom(Font.Lato.bold, size: 17))
-                            .foregroundColor(Color.systemBackground)
+                            .foregroundColor(Color(.systemBackground))
                     }
                     .multilineTextAlignment(.center)
                 }
@@ -105,7 +105,7 @@ struct SelectedServerBootcamp: View {
                 
             } label: {
                 Image(Image.person)
-                    .foregroundColor(Color.blueColor)
+                    .foregroundColor(Color(.blue))
             }
         }
     }
@@ -117,7 +117,7 @@ struct SelectedServerBootcamp: View {
             Text("is not Secured")
                 .font(.custom(Font.Lato.bold, size: 24))
         }
-        .foregroundColor(Color.grayColor)
+        .foregroundColor(Color(.gray))
         .padding(.top, 47)
     }
     
@@ -125,10 +125,10 @@ struct SelectedServerBootcamp: View {
         VStack(spacing: 11) {
             Text("Smart Connect")
                 .font(.custom(Font.Lato.bold, size: 17))
-                .foregroundColor(Color.grayColor)
+                .foregroundColor(Color(.gray))
             
             RoundedRectangle(cornerRadius: 14)
-                .fill(Color.blueColor.opacity(0.05))
+                .fill(Color(.blue).opacity(0.05))
                 .overlay {
                     HStack(alignment: .center, spacing: 20) {
                         Image(Image.brazil)
@@ -142,7 +142,7 @@ struct SelectedServerBootcamp: View {
                             Text("Italy")
                                 .font(.custom(Font.Lato.bold, size: 12))
                         }
-                        .foregroundColor(Color.textFieldColor)
+                        .foregroundColor(Color(.textField))
                         
                         Spacer()
                         
@@ -168,10 +168,10 @@ struct SelectedServerBootcamp: View {
             VStack(spacing: 11) {
                 Text("Select Server")
                     .font(.custom(Font.Lato.bold, size: 17))
-                    .foregroundColor(Color.grayColor)
+                    .foregroundColor(Color(.gray))
                 
                 RoundedRectangle(cornerRadius: 14)
-                    .fill(Color.blueColor.opacity(0.07))
+                    .fill(Color(.blue).opacity(0.07))
                     .overlay {
                         HStack(alignment: .center, spacing: 20) {
                             Image(Image.usa)
@@ -185,7 +185,7 @@ struct SelectedServerBootcamp: View {
                                 Text("New York")
                                     .font(.custom(Font.Lato.bold, size: 12))
                             }
-                            .foregroundColor(Color.textFieldColor)
+                            .foregroundColor(Color(.textField))
                             
                             Spacer()
                             

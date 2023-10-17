@@ -14,15 +14,17 @@ struct GeometryReaderBootcamp: View {
             HStack {
                 ForEach(0..<20) { index in
                     GeometryReader { geomentry in
-                        RoundedRectangle(cornerRadius: 20).fill(random())
-                            .shadow(color: random(), radius: 8)
+                        RoundedRectangle(cornerRadius: 20)
+                            .fill(Color.pink)
+                            .frame(height: 250)
+                            .shadow(color: .gray, radius: 10)
                             .rotation3DEffect(
-                                Angle(degrees: getPercentage(geo: geomentry) * 40),
+                                Angle(degrees: getPercentage(geo: geomentry) * 20),
                                 axis: (x: 0, y: 1, z: 0)
                             )
                     }
-                    .frame(width: 300, height: 250)
-                    .padding()
+                    .frame(width: 300, height: 270)
+                    .padding(22)
                 }
             }
         }

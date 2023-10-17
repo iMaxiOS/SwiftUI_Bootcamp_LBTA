@@ -13,7 +13,6 @@
 		AC1761CA292385AB006E6700 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C3292385AB006E6700 /* Constants.swift */; };
 		AC1761CB292385AB006E6700 /* Ext+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C4292385AB006E6700 /* Ext+View.swift */; };
 		AC1761CC292385AB006E6700 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = AC1761C5292385AB006E6700 /* Fonts */; };
-		AC1761CD292385AB006E6700 /* Ext+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C6292385AB006E6700 /* Ext+Colors.swift */; };
 		AC1761CE292385AB006E6700 /* Ext+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C7292385AB006E6700 /* Ext+Image.swift */; };
 		AC1761D129238651006E6700 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761D029238651006E6700 /* RoundedCorner.swift */; };
 		AC3A6FFC290A61030094C0F0 /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A6FFB290A61020094C0F0 /* RotationGestureBootcamp.swift */; };
@@ -44,6 +43,7 @@
 		ACE02D1929154C0E002840CF /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE02D1829154C0E002840CF /* HapticsBootcamp.swift */; };
 		ACE02D1B29154F37002840CF /* LocalPushNotificationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE02D1A29154F37002840CF /* LocalPushNotificationsBootcamp.swift */; };
 		CA40CEF62ADD638500706735 /* DownloadWithEscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA40CEF52ADD638500706735 /* DownloadWithEscapingBootcamp.swift */; };
+		CA4342252ADEC25600E5A4D0 /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4342242ADEC25600E5A4D0 /* TimerBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +53,6 @@
 		AC1761C3292385AB006E6700 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AC1761C4292385AB006E6700 /* Ext+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+View.swift"; sourceTree = "<group>"; };
 		AC1761C5292385AB006E6700 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
-		AC1761C6292385AB006E6700 /* Ext+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+Colors.swift"; sourceTree = "<group>"; };
 		AC1761C7292385AB006E6700 /* Ext+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+Image.swift"; sourceTree = "<group>"; };
 		AC1761CF292385F5006E6700 /* SwiftUI-Bootcamp-LBTA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-Bootcamp-LBTA-Info.plist"; sourceTree = SOURCE_ROOT; };
 		AC1761D029238651006E6700 /* RoundedCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
@@ -86,6 +85,7 @@
 		ACE02D1829154C0E002840CF /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 		ACE02D1A29154F37002840CF /* LocalPushNotificationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPushNotificationsBootcamp.swift; sourceTree = "<group>"; };
 		CA40CEF52ADD638500706735 /* DownloadWithEscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingBootcamp.swift; sourceTree = "<group>"; };
+		CA4342242ADEC25600E5A4D0 /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,6 @@
 				AC1761D029238651006E6700 /* RoundedCorner.swift */,
 				AC1761C5292385AB006E6700 /* Fonts */,
 				AC1761C3292385AB006E6700 /* Constants.swift */,
-				AC1761C6292385AB006E6700 /* Ext+Colors.swift */,
 				AC1761C7292385AB006E6700 /* Ext+Image.swift */,
 				AC1761C4292385AB006E6700 /* Ext+View.swift */,
 				AC1761C1292385AB006E6700 /* NotificationToken.swift */,
@@ -166,6 +165,7 @@
 				AC4991C829474D430070BC82 /* CodableBootcamp.swift */,
 				AC4991CA29475F080070BC82 /* DownloadJSONWithCombine.swift */,
 				CA40CEF52ADD638500706735 /* DownloadWithEscapingBootcamp.swift */,
+				CA4342242ADEC25600E5A4D0 /* TimerBootcamp.swift */,
 				AC48BDFF293A2451009A2C75 /* FruitsContainer.xcdatamodeld */,
 				AC549D45290BE3C600B34EB7 /* Sounds */,
 				AC40F13B2909396200BC29DF /* Assets.xcassets */,
@@ -220,7 +220,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					AC40F1332909396100BC29DF = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -270,6 +270,7 @@
 				AC5D7D7C291D429F009C02F6 /* HashableBootcamp.swift in Sources */,
 				AC5F4CC8290A858000A84A2E /* DragGestureBootcamp2.swift in Sources */,
 				AC4991CB29475F080070BC82 /* DownloadJSONWithCombine.swift in Sources */,
+				CA4342252ADEC25600E5A4D0 /* TimerBootcamp.swift in Sources */,
 				AC48BE03293A3547009A2C75 /* BackgroundTraeadBootcamp.swift in Sources */,
 				AC1761CE292385AB006E6700 /* Ext+Image.swift in Sources */,
 				AC48BDFE293A22B5009A2C75 /* CoreDataBootcamp.swift in Sources */,
@@ -277,7 +278,6 @@
 				AC3A6FFE290A64A90094C0F0 /* DragGestureBootcamp.swift in Sources */,
 				AC40F14629093BD000BC29DF /* LongPressGustureBootcamp.swift in Sources */,
 				CA40CEF62ADD638500706735 /* DownloadWithEscapingBootcamp.swift in Sources */,
-				AC1761CD292385AB006E6700 /* Ext+Colors.swift in Sources */,
 				AC4991C929474D430070BC82 /* CodableBootcamp.swift in Sources */,
 				AC1761BF2923831F006E6700 /* SelectedServerBootcamp.swift in Sources */,
 				AC5F4CCA290A9D6700A84A2E /* ScrollViewReaderBootcamp.swift in Sources */,
@@ -307,6 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -339,6 +340,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -353,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -367,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -399,6 +402,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -407,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

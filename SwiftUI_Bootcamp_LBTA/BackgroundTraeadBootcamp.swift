@@ -45,7 +45,7 @@ struct BackgroundTraeadBootcamp: View {
                 ForEach(vm.list, id: \.self) { item in
                     Text(item)
                         .font(.headline)
-                        .foregroundColor(Color.textFieldColor)
+                        .foregroundColor(Color(.textField))
                 }
             }
         }

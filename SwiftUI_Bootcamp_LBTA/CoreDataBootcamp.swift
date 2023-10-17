@@ -70,7 +70,7 @@ struct CoreDataBootcamp: View {
         NavigationView {
             VStack(spacing: 20) {
                 TextField("Add Fruits...", text: $textFieldText)
-                    .foregroundColor(Color.systemBackground)
+                    .foregroundColor(Color(.systemBackground))
                     .padding()
                     .background(Color.blue)
                     .cornerRadius(10)
@@ -83,10 +83,10 @@ struct CoreDataBootcamp: View {
                 } label: {
                     Text("Add fruit")
                         .fontWeight(.semibold)
-                        .foregroundColor(Color.systemBackground)
+                        .foregroundColor(Color(.systemBackground))
                         .frame(height: 55)
                         .frame(maxWidth: .infinity)
-                        .background(Color.redColor)
+                        .background(Color(.red))
                         .cornerRadius(10)
                 }
                 
@@ -94,7 +94,7 @@ struct CoreDataBootcamp: View {
                     ForEach(vm.fruits) { fruit in
                         Text(fruit.name ?? "")
                             .font(.headline)
-                            .foregroundColor(Color.textFieldColor)
+                            .foregroundColor(Color(.textField))
                     }
                     .onDelete { index in
                         vm.deleteFruit(index)
