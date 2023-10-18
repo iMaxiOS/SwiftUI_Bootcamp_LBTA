@@ -44,6 +44,7 @@
 		ACE02D1B29154F37002840CF /* LocalPushNotificationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE02D1A29154F37002840CF /* LocalPushNotificationsBootcamp.swift */; };
 		CA40CEF62ADD638500706735 /* DownloadWithEscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA40CEF52ADD638500706735 /* DownloadWithEscapingBootcamp.swift */; };
 		CA4342252ADEC25600E5A4D0 /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4342242ADEC25600E5A4D0 /* TimerBootcamp.swift */; };
+		CA69C7452ADFB81F0004FE95 /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA69C7442ADFB81F0004FE95 /* SubscriberBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		ACE02D1A29154F37002840CF /* LocalPushNotificationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPushNotificationsBootcamp.swift; sourceTree = "<group>"; };
 		CA40CEF52ADD638500706735 /* DownloadWithEscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingBootcamp.swift; sourceTree = "<group>"; };
 		CA4342242ADEC25600E5A4D0 /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
+		CA69C7442ADFB81F0004FE95 /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				AC4991CA29475F080070BC82 /* DownloadJSONWithCombine.swift */,
 				CA40CEF52ADD638500706735 /* DownloadWithEscapingBootcamp.swift */,
 				CA4342242ADEC25600E5A4D0 /* TimerBootcamp.swift */,
+				CA69C7442ADFB81F0004FE95 /* SubscriberBootcamp.swift */,
 				AC48BDFF293A2451009A2C75 /* FruitsContainer.xcdatamodeld */,
 				AC549D45290BE3C600B34EB7 /* Sounds */,
 				AC40F13B2909396200BC29DF /* Assets.xcassets */,
@@ -294,6 +297,7 @@
 				AC5F4CCC290AC7AC00A84A2E /* GeometryReaderBootcamp.swift in Sources */,
 				AC1761CA292385AB006E6700 /* Constants.swift in Sources */,
 				ACE02D1929154C0E002840CF /* HapticsBootcamp.swift in Sources */,
+				CA69C7452ADFB81F0004FE95 /* SubscriberBootcamp.swift in Sources */,
 				ACE02D1B29154F37002840CF /* LocalPushNotificationsBootcamp.swift in Sources */,
 				AC40F1382909396100BC29DF /* SwiftUI_Bootcamp_LBTAApp.swift in Sources */,
 				AC3A6FFC290A61030094C0F0 /* RotationGestureBootcamp.swift in Sources */,
