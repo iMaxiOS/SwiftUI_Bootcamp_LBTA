@@ -25,7 +25,9 @@ struct RotationGestureBootcamp: View {
                         angle = value
                     }
                     .onEnded { value in
-                        angle = Angle(degrees: 0)
+                        withAnimation(.snappy) {
+                            angle = Angle(degrees: 0)
+                        }
                     }
             )
     }

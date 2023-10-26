@@ -43,6 +43,8 @@
 		ACE02D1929154C0E002840CF /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE02D1829154C0E002840CF /* HapticsBootcamp.swift */; };
 		ACE02D1B29154F37002840CF /* LocalPushNotificationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE02D1A29154F37002840CF /* LocalPushNotificationsBootcamp.swift */; };
 		CA1D3B762AEA485F00B3E442 /* GlobalActorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D3B752AEA485F00B3E442 /* GlobalActorsBootcamp.swift */; };
+		CA1D3B782AEA7D1700B3E442 /* DragAndDropGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1D3B772AEA7D1700B3E442 /* DragAndDropGestureBootcamp.swift */; };
+		CA1D3B7B2AEA8D5400B3E442 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = CA1D3B7A2AEA8D5400B3E442 /* Algorithms */; };
 		CA40CEF62ADD638500706735 /* DownloadWithEscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA40CEF52ADD638500706735 /* DownloadWithEscapingBootcamp.swift */; };
 		CA4342252ADEC25600E5A4D0 /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4342242ADEC25600E5A4D0 /* TimerBootcamp.swift */; };
 		CA47105E2AE91A3100919BB3 /* TaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA47105D2AE91A3100919BB3 /* TaskBootcamp.swift */; };
@@ -101,6 +103,7 @@
 		ACE02D1829154C0E002840CF /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 		ACE02D1A29154F37002840CF /* LocalPushNotificationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPushNotificationsBootcamp.swift; sourceTree = "<group>"; };
 		CA1D3B752AEA485F00B3E442 /* GlobalActorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActorsBootcamp.swift; sourceTree = "<group>"; };
+		CA1D3B772AEA7D1700B3E442 /* DragAndDropGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropGestureBootcamp.swift; sourceTree = "<group>"; };
 		CA40CEF52ADD638500706735 /* DownloadWithEscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingBootcamp.swift; sourceTree = "<group>"; };
 		CA4342242ADEC25600E5A4D0 /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
 		CA47105D2AE91A3100919BB3 /* TaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBootcamp.swift; sourceTree = "<group>"; };
@@ -125,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA1D3B7B2AEA8D5400B3E442 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +189,7 @@
 				AC3A6FFB290A61020094C0F0 /* RotationGestureBootcamp.swift */,
 				AC3A6FFD290A64A90094C0F0 /* DragGestureBootcamp.swift */,
 				AC5F4CC7290A858000A84A2E /* DragGestureBootcamp2.swift */,
+				CA1D3B772AEA7D1700B3E442 /* DragAndDropGestureBootcamp.swift */,
 				AC5F4CC9290A9D6700A84A2E /* ScrollViewReaderBootcamp.swift */,
 				AC5F4CCB290AC7AC00A84A2E /* GeometryReaderBootcamp.swift */,
 				AC549D3D290BA99500B34EB7 /* MultipleSheetsBootcamp.swift */,
@@ -296,6 +301,9 @@
 			dependencies = (
 			);
 			name = SwiftUI_Bootcamp_LBTA;
+			packageProductDependencies = (
+				CA1D3B7A2AEA8D5400B3E442 /* Algorithms */,
+			);
 			productName = SwiftUI_Bootcamp_LBTA;
 			productReference = AC40F1342909396100BC29DF /* SwiftUI_Bootcamp_LBTA.app */;
 			productType = "com.apple.product-type.application";
@@ -324,6 +332,9 @@
 				Base,
 			);
 			mainGroup = AC40F12B2909396100BC29DF;
+			packageReferences = (
+				CA1D3B792AEA8D5400B3E442 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = AC40F1352909396100BC29DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -364,6 +375,7 @@
 				AC48BE03293A3547009A2C75 /* BackgroundTraeadBootcamp.swift in Sources */,
 				CA493FAE2AE149CD007C1CB1 /* ImageLoadingViewModel.swift in Sources */,
 				CA985D0B2AE7E46300CFC206 /* DoCatchTryBootcamp.swift in Sources */,
+				CA1D3B782AEA7D1700B3E442 /* DragAndDropGestureBootcamp.swift in Sources */,
 				AC1761CE292385AB006E6700 /* Ext+Image.swift in Sources */,
 				AC48BDFE293A22B5009A2C75 /* CoreDataBootcamp.swift in Sources */,
 				AC549D40290BCE1C00B34EB7 /* MaskBootcamp.swift in Sources */,
@@ -609,6 +621,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CA1D3B792AEA8D5400B3E442 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CA1D3B7A2AEA8D5400B3E442 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA1D3B792AEA8D5400B3E442 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		AC48BDFF293A2451009A2C75 /* FruitsContainer.xcdatamodeld */ = {
