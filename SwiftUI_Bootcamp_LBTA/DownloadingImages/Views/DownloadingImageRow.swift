@@ -34,7 +34,7 @@ struct DownloadingImageRow: View {
             albumId: 1, id: 1,
             title: "title",
             url: URL(string: "DownloadingImageView"),
-            thumbnailUrl: URL(string: "")
+            thumbnailUrl: URL(string: "www")
         )
     )
 }

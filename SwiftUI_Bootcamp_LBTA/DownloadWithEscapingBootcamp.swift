@@ -45,7 +45,7 @@ final class DownloadWithEscapingViewModel: ObservableObject {
     }
     
     func getPosts(fromURL: URL, completion: @escaping (_ data: Data?) -> Void) {
-        var request = URLRequest(url: fromURL)
+        let request = URLRequest(url: fromURL)
         
         URLSession.shared.dataTask(with: request) { data, response, error in
             guard error == nil,
