@@ -20,7 +20,6 @@ struct DefaultViewModifier: ViewModifier {
             .background(bg)
             .clipShape(.rect(cornerRadius: 10))
             .shadow(radius: 10)
-            .padding()
     }
 }
 
