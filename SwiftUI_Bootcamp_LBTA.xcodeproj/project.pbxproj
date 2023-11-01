@@ -66,6 +66,7 @@
 		CABF85A42AF245680035D04C /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF85A32AF245680035D04C /* ViewModifierBootcamp.swift */; };
 		CABF85A62AF249640035D04C /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF85A52AF249640035D04C /* ButtonStyleBootcamp.swift */; };
 		CABF85A82AF24F530035D04C /* AnyTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF85A72AF24F530035D04C /* AnyTransitionBootcamp.swift */; };
+		CABF85AA2AF269020035D04C /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF85A92AF269020035D04C /* MatchedGeometryEffectBootcamp.swift */; };
 		CACCFE092AEFA3F300BE123E /* RefreshableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACCFE082AEFA3F200BE123E /* RefreshableBootcamp.swift */; };
 		CACCFE0B2AEFC90A00BE123E /* SearchableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACCFE0A2AEFC90A00BE123E /* SearchableBootcamp.swift */; };
 /* End PBXBuildFile section */
@@ -131,6 +132,7 @@
 		CABF85A32AF245680035D04C /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
 		CABF85A52AF249640035D04C /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
 		CABF85A72AF24F530035D04C /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
+		CABF85A92AF269020035D04C /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
 		CACCFE082AEFA3F200BE123E /* RefreshableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableBootcamp.swift; sourceTree = "<group>"; };
 		CACCFE0A2AEFC90A00BE123E /* SearchableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -231,6 +233,7 @@
 				CABF85A32AF245680035D04C /* ViewModifierBootcamp.swift */,
 				CABF85A52AF249640035D04C /* ButtonStyleBootcamp.swift */,
 				CABF85A72AF24F530035D04C /* AnyTransitionBootcamp.swift */,
+				CABF85A92AF269020035D04C /* MatchedGeometryEffectBootcamp.swift */,
 				AC48BDFF293A2451009A2C75 /* FruitsContainer.xcdatamodeld */,
 				AC40F13B2909396200BC29DF /* Assets.xcassets */,
 				AC40F13D2909396200BC29DF /* Preview Content */,
@@ -395,6 +398,7 @@
 				CA493FAE2AE149CD007C1CB1 /* ImageLoadingViewModel.swift in Sources */,
 				CA985D0B2AE7E46300CFC206 /* DoCatchTryBootcamp.swift in Sources */,
 				CA1D3B782AEA7D1700B3E442 /* DragAndDropGestureBootcamp.swift in Sources */,
+				CABF85AA2AF269020035D04C /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				CABF85A42AF245680035D04C /* ViewModifierBootcamp.swift in Sources */,
 				AC1761CE292385AB006E6700 /* Ext+Image.swift in Sources */,
 				AC48BDFE293A22B5009A2C75 /* CoreDataBootcamp.swift in Sources */,
