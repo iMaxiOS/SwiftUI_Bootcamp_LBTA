@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct DefaultViewModifier: ViewModifier {
-    var color: Color
+    var foreground: Color
     var bg: Color
     
     func body(content: Content) -> some View {
         content
             .font(.headline)
-            .foregroundStyle(color)
+            .foregroundStyle(foreground)
             .frame(height: 55)
             .frame(maxWidth: .infinity)
             .background(bg)
@@ -27,13 +27,13 @@ struct DefaultViewModifier: ViewModifier {
 struct ViewModifierBootcamp: View {
     var body: some View {
         Text("Hello, everyone!")
-            .modifier(DefaultViewModifier(color: .white, bg: .pink))
+            .modifier(DefaultViewModifier(foreground: .white, bg: .pink))
         
         Text("Hello, World!")
-            .modifier(DefaultViewModifier(color: .white, bg: .red))
+            .modifier(DefaultViewModifier(foreground: .white, bg: .red))
         
         Text("Hello!!!!")
-            .modifier(DefaultViewModifier(color: .pink, bg: .yellow))
+            .modifier(DefaultViewModifier(foreground: .pink, bg: .yellow))
     }
 }
 
