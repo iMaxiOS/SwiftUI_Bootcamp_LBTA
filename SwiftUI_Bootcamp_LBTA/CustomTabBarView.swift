@@ -17,7 +17,7 @@ struct TabBarItemPreferenceKey: PreferenceKey {
     static var defaultValue: [TabBarItem] = []
     
     static func reduce(value: inout [TabBarItem], nextValue: () -> [TabBarItem]) {
-        defaultValue += nextValue()
+        value += nextValue()
     }
 }
 
@@ -72,18 +72,18 @@ struct CustomTabBar: View {
 
 struct CustomTabBarView: View {
     
-    @State var selection: TabBarItem = TabBarItem(icon: "house.fill", title: "Home", color: .blue)
+    @State var selection: TabBarItem = TabBarItem(icon: "house.fill", title: "Home", color: .green)
     
     var body: some View {
         CustomTabBarContainerView(selection: $selection) {
             Color.red
-                .tabBarItem(tab: .init(icon: "house.fill", title: "Home", color: .red), selection: $selection)
+                .tabBarItem(tab: .init(icon: "house.fill", title: "Home", color: .green), selection: $selection)
             
             Color.green
-                .tabBarItem(tab: .init(icon: "heart.fill", title: "Heart", color: .green), selection: $selection)
+                .tabBarItem(tab: .init(icon: "heart.fill", title: "Heart", color: .red), selection: $selection)
             
             Color.yellow
-                .tabBarItem(tab: .init(icon: "gear", title: "Settings", color: .yellow), selection: $selection)
+                .tabBarItem(tab: .init(icon: "gear", title: "Settings", color: .black), selection: $selection)
         }
     }
 }
@@ -114,3 +114,7 @@ extension CustomTabBar {
         }
     }
 }
+
+#Preview(body: {
+    CustomTabBarView()
+})
