@@ -60,6 +60,7 @@
 		CA5709892AF3D69100897798 /* GenericBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5709882AF3D69100897798 /* GenericBootcamp.swift */; };
 		CA57D2E02AF90E95009DA7D3 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57D2DF2AF90E95009DA7D3 /* CustomTabBarView.swift */; };
 		CA57D2E22AF9351B009DA7D3 /* CustomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57D2E12AF9351B009DA7D3 /* CustomNavigationBarView.swift */; };
+		CA5B039C2AFB860D00E67E62 /* DependencyInjectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5B039B2AFB860D00E67E62 /* DependencyInjectionBootcamp.swift */; };
 		CA64C4312AE92D4B00A36F27 /* TaskGroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA64C4302AE92D4B00A36F27 /* TaskGroupBootcamp.swift */; };
 		CA68A9A62AF38B46009A52F9 /* CustomShapeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA68A9A52AF38B46009A52F9 /* CustomShapeBootcamp.swift */; };
 		CA68A9A82AF39E91009A52F9 /* CustomCurvesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA68A9A72AF39E91009A52F9 /* CustomCurvesBootcamp.swift */; };
@@ -69,6 +70,7 @@
 		CA79460F2AF0EDB500822101 /* PhotoPickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79460E2AF0EDB500822101 /* PhotoPickerBootcamp.swift */; };
 		CA96D1C42AFA2E8600D18ADF /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96D1C32AFA2E8600D18ADF /* UIViewRepresentableBootcamp.swift */; };
 		CA96D1C62AFA462A00D18ADF /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96D1C52AFA462A00D18ADF /* UIViewControllerRepresentableBootcamp.swift */; };
+		CA96D1C82AFA59E000D18ADF /* ProtocolBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96D1C72AFA59E000D18ADF /* ProtocolBootcamp.swift */; };
 		CA985D0B2AE7E46300CFC206 /* DoCatchTryBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA985D0A2AE7E46300CFC206 /* DoCatchTryBootcamp.swift */; };
 		CA985D0D2AE803C100CFC206 /* DownloadImageUseAsyncAwaitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA985D0C2AE803C100CFC206 /* DownloadImageUseAsyncAwaitBootcamp.swift */; };
 		CA9D251D2ADFEBDD0067AE5E /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9D251C2ADFEBDD0067AE5E /* FileManagerBootcamp.swift */; };
@@ -135,6 +137,7 @@
 		CA5709882AF3D69100897798 /* GenericBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBootcamp.swift; sourceTree = "<group>"; };
 		CA57D2DF2AF90E95009DA7D3 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		CA57D2E12AF9351B009DA7D3 /* CustomNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarView.swift; sourceTree = "<group>"; };
+		CA5B039B2AFB860D00E67E62 /* DependencyInjectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionBootcamp.swift; sourceTree = "<group>"; };
 		CA64C4302AE92D4B00A36F27 /* TaskGroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupBootcamp.swift; sourceTree = "<group>"; };
 		CA68A9A52AF38B46009A52F9 /* CustomShapeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeBootcamp.swift; sourceTree = "<group>"; };
 		CA68A9A72AF39E91009A52F9 /* CustomCurvesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootcamp.swift; sourceTree = "<group>"; };
@@ -144,6 +147,7 @@
 		CA79460E2AF0EDB500822101 /* PhotoPickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerBootcamp.swift; sourceTree = "<group>"; };
 		CA96D1C32AFA2E8600D18ADF /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		CA96D1C52AFA462A00D18ADF /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
+		CA96D1C72AFA59E000D18ADF /* ProtocolBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolBootcamp.swift; sourceTree = "<group>"; };
 		CA985D0A2AE7E46300CFC206 /* DoCatchTryBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryBootcamp.swift; sourceTree = "<group>"; };
 		CA985D0C2AE803C100CFC206 /* DownloadImageUseAsyncAwaitBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageUseAsyncAwaitBootcamp.swift; sourceTree = "<group>"; };
 		CA9D251C2ADFEBDD0067AE5E /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
@@ -261,6 +265,8 @@
 				CA57D2E12AF9351B009DA7D3 /* CustomNavigationBarView.swift */,
 				CA96D1C32AFA2E8600D18ADF /* UIViewRepresentableBootcamp.swift */,
 				CA96D1C52AFA462A00D18ADF /* UIViewControllerRepresentableBootcamp.swift */,
+				CA96D1C72AFA59E000D18ADF /* ProtocolBootcamp.swift */,
+				CA5B039B2AFB860D00E67E62 /* DependencyInjectionBootcamp.swift */,
 				AC48BDFF293A2451009A2C75 /* FruitsContainer.xcdatamodeld */,
 				AC40F13B2909396200BC29DF /* Assets.xcassets */,
 				AC40F13D2909396200BC29DF /* Preview Content */,
@@ -425,6 +431,7 @@
 				CA57D2E02AF90E95009DA7D3 /* CustomTabBarView.swift in Sources */,
 				AC48BE03293A3547009A2C75 /* BackgroundTraeadBootcamp.swift in Sources */,
 				CA493FAE2AE149CD007C1CB1 /* ImageLoadingViewModel.swift in Sources */,
+				CA96D1C82AFA59E000D18ADF /* ProtocolBootcamp.swift in Sources */,
 				CA985D0B2AE7E46300CFC206 /* DoCatchTryBootcamp.swift in Sources */,
 				CA5709892AF3D69100897798 /* GenericBootcamp.swift in Sources */,
 				CA1D3B782AEA7D1700B3E442 /* DragAndDropGestureBootcamp.swift in Sources */,
@@ -433,6 +440,7 @@
 				AC1761CE292385AB006E6700 /* Ext+Image.swift in Sources */,
 				AC48BDFE293A22B5009A2C75 /* CoreDataBootcamp.swift in Sources */,
 				AC549D40290BCE1C00B34EB7 /* MaskBootcamp.swift in Sources */,
+				CA5B039C2AFB860D00E67E62 /* DependencyInjectionBootcamp.swift in Sources */,
 				CA493FAC2AE14958007C1CB1 /* DownloadingImageView.swift in Sources */,
 				CA1D3B762AEA485F00B3E442 /* GlobalActorsBootcamp.swift in Sources */,
 				AC3A6FFE290A64A90094C0F0 /* DragGestureBootcamp.swift in Sources */,
