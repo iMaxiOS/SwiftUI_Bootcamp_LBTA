@@ -64,6 +64,7 @@
 		CA5B039E2AFBA30D00E67E62 /* UnitTestingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5B039D2AFBA30D00E67E62 /* UnitTestingBootcamp.swift */; };
 		CA5B03A12AFBA33500E67E62 /* UnitTestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5B03A02AFBA33500E67E62 /* UnitTestingViewModel.swift */; };
 		CA5B03A92AFBA3D100E67E62 /* SwiftUI_Bootcamp_LBTA_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5B03A82AFBA3D100E67E62 /* SwiftUI_Bootcamp_LBTA_Tests.swift */; };
+		CA5CFEB52AFD20F00001BD53 /* CloudKitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5CFEB42AFD20F00001BD53 /* CloudKitBootcamp.swift */; };
 		CA64C4312AE92D4B00A36F27 /* TaskGroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA64C4302AE92D4B00A36F27 /* TaskGroupBootcamp.swift */; };
 		CA68A9A62AF38B46009A52F9 /* CustomShapeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA68A9A52AF38B46009A52F9 /* CustomShapeBootcamp.swift */; };
 		CA68A9A82AF39E91009A52F9 /* CustomCurvesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA68A9A72AF39E91009A52F9 /* CustomCurvesBootcamp.swift */; };
@@ -164,6 +165,8 @@
 		CA5B03A02AFBA33500E67E62 /* UnitTestingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingViewModel.swift; sourceTree = "<group>"; };
 		CA5B03A62AFBA3D100E67E62 /* SwiftUI_Bootcamp_LBTA_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_Bootcamp_LBTA_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5B03A82AFBA3D100E67E62 /* SwiftUI_Bootcamp_LBTA_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Bootcamp_LBTA_Tests.swift; sourceTree = "<group>"; };
+		CA5CFEB32AFD1EBD0001BD53 /* SwiftUI_Bootcamp_LBTA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_Bootcamp_LBTA.entitlements; sourceTree = "<group>"; };
+		CA5CFEB42AFD20F00001BD53 /* CloudKitBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitBootcamp.swift; sourceTree = "<group>"; };
 		CA64C4302AE92D4B00A36F27 /* TaskGroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupBootcamp.swift; sourceTree = "<group>"; };
 		CA68A9A52AF38B46009A52F9 /* CustomShapeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeBootcamp.swift; sourceTree = "<group>"; };
 		CA68A9A72AF39E91009A52F9 /* CustomCurvesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootcamp.swift; sourceTree = "<group>"; };
@@ -261,6 +264,7 @@
 		AC40F1362909396100BC29DF /* SwiftUI_Bootcamp_LBTA */ = {
 			isa = PBXGroup;
 			children = (
+				CA5CFEB32AFD1EBD0001BD53 /* SwiftUI_Bootcamp_LBTA.entitlements */,
 				AC1761CF292385F5006E6700 /* SwiftUI-Bootcamp-LBTA-Info.plist */,
 				AC549D45290BE3C600B34EB7 /* Sounds */,
 				AC1761C029238592006E6700 /* Extension */,
@@ -314,6 +318,7 @@
 				CA96D1C52AFA462A00D18ADF /* UIViewControllerRepresentableBootcamp.swift */,
 				CA96D1C72AFA59E000D18ADF /* ProtocolBootcamp.swift */,
 				CA5B039B2AFB860D00E67E62 /* DependencyInjectionBootcamp.swift */,
+				CA5CFEB42AFD20F00001BD53 /* CloudKitBootcamp.swift */,
 				CA5B039F2AFBA31500E67E62 /* UnitTestingBootcamp */,
 				CA691D3A2AFCCE3A00530367 /* UITestingBootcamp */,
 				AC48BDFF293A2451009A2C75 /* FruitsContainer.xcdatamodeld */,
@@ -630,6 +635,7 @@
 				CA493FA42AE11889007C1CB1 /* DownloadingImagesViewModel.swift in Sources */,
 				CA96D1C42AFA2E8600D18ADF /* UIViewRepresentableBootcamp.swift in Sources */,
 				AC3A6FFC290A61030094C0F0 /* RotationGestureBootcamp.swift in Sources */,
+				CA5CFEB52AFD20F00001BD53 /* CloudKitBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -788,10 +794,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUI_Bootcamp_LBTA/SwiftUI_Bootcamp_LBTA.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Bootcamp_LBTA/Preview Content\"";
-				DEVELOPMENT_TEAM = R4XB56HC9M;
+				DEVELOPMENT_TEAM = NS8SXBDV2X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SwiftUI-Bootcamp-LBTA-Info.plist";
@@ -822,10 +829,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUI_Bootcamp_LBTA/SwiftUI_Bootcamp_LBTA.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_Bootcamp_LBTA/Preview Content\"";
-				DEVELOPMENT_TEAM = R4XB56HC9M;
+				DEVELOPMENT_TEAM = NS8SXBDV2X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SwiftUI-Bootcamp-LBTA-Info.plist";
