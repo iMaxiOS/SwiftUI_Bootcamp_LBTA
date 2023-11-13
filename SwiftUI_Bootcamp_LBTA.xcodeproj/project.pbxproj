@@ -64,6 +64,7 @@
 		CA5B039E2AFBA30D00E67E62 /* UnitTestingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5B039D2AFBA30D00E67E62 /* UnitTestingBootcamp.swift */; };
 		CA5B03A12AFBA33500E67E62 /* UnitTestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5B03A02AFBA33500E67E62 /* UnitTestingViewModel.swift */; };
 		CA5B03A92AFBA3D100E67E62 /* SwiftUI_Bootcamp_LBTA_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5B03A82AFBA3D100E67E62 /* SwiftUI_Bootcamp_LBTA_Tests.swift */; };
+		CA5B90812B0214AA00CAD250 /* CombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5B90802B0214AA00CAD250 /* CombineBootcamp.swift */; };
 		CA5CFEB52AFD20F00001BD53 /* CloudKitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5CFEB42AFD20F00001BD53 /* CloudKitBootcamp.swift */; };
 		CA64C4312AE92D4B00A36F27 /* TaskGroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA64C4302AE92D4B00A36F27 /* TaskGroupBootcamp.swift */; };
 		CA68A9A62AF38B46009A52F9 /* CustomShapeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA68A9A52AF38B46009A52F9 /* CustomShapeBootcamp.swift */; };
@@ -165,6 +166,7 @@
 		CA5B03A02AFBA33500E67E62 /* UnitTestingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingViewModel.swift; sourceTree = "<group>"; };
 		CA5B03A62AFBA3D100E67E62 /* SwiftUI_Bootcamp_LBTA_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_Bootcamp_LBTA_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5B03A82AFBA3D100E67E62 /* SwiftUI_Bootcamp_LBTA_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Bootcamp_LBTA_Tests.swift; sourceTree = "<group>"; };
+		CA5B90802B0214AA00CAD250 /* CombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineBootcamp.swift; sourceTree = "<group>"; };
 		CA5CFEB32AFD1EBD0001BD53 /* SwiftUI_Bootcamp_LBTA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_Bootcamp_LBTA.entitlements; sourceTree = "<group>"; };
 		CA5CFEB42AFD20F00001BD53 /* CloudKitBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitBootcamp.swift; sourceTree = "<group>"; };
 		CA64C4302AE92D4B00A36F27 /* TaskGroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupBootcamp.swift; sourceTree = "<group>"; };
@@ -290,6 +292,7 @@
 				AC48BE02293A3547009A2C75 /* BackgroundTraeadBootcamp.swift */,
 				AC4991C829474D430070BC82 /* CodableBootcamp.swift */,
 				AC4991CA29475F080070BC82 /* DownloadJSONWithCombine.swift */,
+				CA5B90802B0214AA00CAD250 /* CombineBootcamp.swift */,
 				CA40CEF52ADD638500706735 /* DownloadWithEscapingBootcamp.swift */,
 				CA4342242ADEC25600E5A4D0 /* TimerBootcamp.swift */,
 				CA69C7442ADFB81F0004FE95 /* SubscriberBootcamp.swift */,
@@ -578,6 +581,7 @@
 				CA4342252ADEC25600E5A4D0 /* TimerBootcamp.swift in Sources */,
 				CA57D2E02AF90E95009DA7D3 /* CustomTabBarView.swift in Sources */,
 				AC48BE03293A3547009A2C75 /* BackgroundTraeadBootcamp.swift in Sources */,
+				CA5B90812B0214AA00CAD250 /* CombineBootcamp.swift in Sources */,
 				CA493FAE2AE149CD007C1CB1 /* ImageLoadingViewModel.swift in Sources */,
 				CA96D1C82AFA59E000D18ADF /* ProtocolBootcamp.swift in Sources */,
 				CA985D0B2AE7E46300CFC206 /* DoCatchTryBootcamp.swift in Sources */,
