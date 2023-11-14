@@ -185,8 +185,6 @@ final class CombineViewModel: ObservableObject {
             })
         */
         
-        ///Multiple Publisher / Subscribe
-        
         manager.passValuePublisher
             .sink(receiveCompletion: { completion in
                 switch completion {

@@ -87,6 +87,7 @@
 		CABF85AA2AF269020035D04C /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABF85A92AF269020035D04C /* MatchedGeometryEffectBootcamp.swift */; };
 		CACCFE092AEFA3F300BE123E /* RefreshableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACCFE082AEFA3F200BE123E /* RefreshableBootcamp.swift */; };
 		CACCFE0B2AEFC90A00BE123E /* SearchableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACCFE0A2AEFC90A00BE123E /* SearchableBootcamp.swift */; };
+		CAFA5C872B03632200C0E5E3 /* FutureCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFA5C862B03632200C0E5E3 /* FutureCombineBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -191,6 +192,7 @@
 		CABF85A92AF269020035D04C /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
 		CACCFE082AEFA3F200BE123E /* RefreshableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableBootcamp.swift; sourceTree = "<group>"; };
 		CACCFE0A2AEFC90A00BE123E /* SearchableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableBootcamp.swift; sourceTree = "<group>"; };
+		CAFA5C862B03632200C0E5E3 /* FutureCombineBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureCombineBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +295,7 @@
 				AC4991C829474D430070BC82 /* CodableBootcamp.swift */,
 				AC4991CA29475F080070BC82 /* DownloadJSONWithCombine.swift */,
 				CA5B90802B0214AA00CAD250 /* CombineBootcamp.swift */,
+				CAFA5C862B03632200C0E5E3 /* FutureCombineBootcamp.swift */,
 				CA40CEF52ADD638500706735 /* DownloadWithEscapingBootcamp.swift */,
 				CA4342242ADEC25600E5A4D0 /* TimerBootcamp.swift */,
 				CA69C7442ADFB81F0004FE95 /* SubscriberBootcamp.swift */,
@@ -585,6 +588,7 @@
 				CA493FAE2AE149CD007C1CB1 /* ImageLoadingViewModel.swift in Sources */,
 				CA96D1C82AFA59E000D18ADF /* ProtocolBootcamp.swift in Sources */,
 				CA985D0B2AE7E46300CFC206 /* DoCatchTryBootcamp.swift in Sources */,
+				CAFA5C872B03632200C0E5E3 /* FutureCombineBootcamp.swift in Sources */,
 				CA5709892AF3D69100897798 /* GenericBootcamp.swift in Sources */,
 				CA1D3B782AEA7D1700B3E442 /* DragAndDropGestureBootcamp.swift in Sources */,
 				CABF85AA2AF269020035D04C /* MatchedGeometryEffectBootcamp.swift in Sources */,
