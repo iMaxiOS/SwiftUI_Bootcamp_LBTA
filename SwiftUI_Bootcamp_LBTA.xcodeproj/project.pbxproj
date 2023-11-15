@@ -58,6 +58,7 @@
 		CA493FAE2AE149CD007C1CB1 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA493FAD2AE149CD007C1CB1 /* ImageLoadingViewModel.swift */; };
 		CA493FB02AE1500E007C1CB1 /* CacheDownloadingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA493FAF2AE1500E007C1CB1 /* CacheDownloadingImage.swift */; };
 		CA5709892AF3D69100897798 /* GenericBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5709882AF3D69100897798 /* GenericBootcamp.swift */; };
+		CA57B81B2B04B4350004CF18 /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57B81A2B04B4350004CF18 /* BindingBootcamp.swift */; };
 		CA57D2E02AF90E95009DA7D3 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57D2DF2AF90E95009DA7D3 /* CustomTabBarView.swift */; };
 		CA57D2E22AF9351B009DA7D3 /* CustomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57D2E12AF9351B009DA7D3 /* CustomNavigationBarView.swift */; };
 		CA5B039C2AFB860D00E67E62 /* DependencyInjectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5B039B2AFB860D00E67E62 /* DependencyInjectionBootcamp.swift */; };
@@ -162,6 +163,7 @@
 		CA493FAD2AE149CD007C1CB1 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
 		CA493FAF2AE1500E007C1CB1 /* CacheDownloadingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheDownloadingImage.swift; sourceTree = "<group>"; };
 		CA5709882AF3D69100897798 /* GenericBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBootcamp.swift; sourceTree = "<group>"; };
+		CA57B81A2B04B4350004CF18 /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
 		CA57D2DF2AF90E95009DA7D3 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		CA57D2E12AF9351B009DA7D3 /* CustomNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarView.swift; sourceTree = "<group>"; };
 		CA5B039B2AFB860D00E67E62 /* DependencyInjectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionBootcamp.swift; sourceTree = "<group>"; };
@@ -331,6 +333,7 @@
 				CA5CFEB42AFD20F00001BD53 /* CloudKitBootcamp.swift */,
 				CAFA5C882B03907200C0E5E3 /* CloudKitNotificationBootcamp.swift */,
 				CAFA5C8A2B039DFC00C0E5E3 /* TimelineViewBootcamp.swift */,
+				CA57B81A2B04B4350004CF18 /* BindingBootcamp.swift */,
 				CA5B039F2AFBA31500E67E62 /* UnitTestingBootcamp */,
 				CA691D3A2AFCCE3A00530367 /* UITestingBootcamp */,
 				AC48BDFF293A2451009A2C75 /* FruitsContainer.xcdatamodeld */,
@@ -621,6 +624,7 @@
 				AC549D3E290BA99500B34EB7 /* MultipleSheetsBootcamp.swift in Sources */,
 				AC3DD8C929389BC700E4927B /* CustomTextFieldView.swift in Sources */,
 				AC3DD8C629389B3900E4927B /* LoginView.swift in Sources */,
+				CA57B81B2B04B4350004CF18 /* BindingBootcamp.swift in Sources */,
 				CA96D1C62AFA462A00D18ADF /* UIViewControllerRepresentableBootcamp.swift in Sources */,
 				AC48BE01293A2451009A2C75 /* FruitsContainer.xcdatamodeld in Sources */,
 				AC1761CB292385AB006E6700 /* Ext+View.swift in Sources */,
