@@ -59,6 +59,7 @@
 		CA493FB02AE1500E007C1CB1 /* CacheDownloadingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA493FAF2AE1500E007C1CB1 /* CacheDownloadingImage.swift */; };
 		CA5709892AF3D69100897798 /* GenericBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5709882AF3D69100897798 /* GenericBootcamp.swift */; };
 		CA57B81B2B04B4350004CF18 /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57B81A2B04B4350004CF18 /* BindingBootcamp.swift */; };
+		CA57B81D2B04C1E50004CF18 /* ErrorAlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57B81C2B04C1E50004CF18 /* ErrorAlertBootcamp.swift */; };
 		CA57D2E02AF90E95009DA7D3 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57D2DF2AF90E95009DA7D3 /* CustomTabBarView.swift */; };
 		CA57D2E22AF9351B009DA7D3 /* CustomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57D2E12AF9351B009DA7D3 /* CustomNavigationBarView.swift */; };
 		CA5B039C2AFB860D00E67E62 /* DependencyInjectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5B039B2AFB860D00E67E62 /* DependencyInjectionBootcamp.swift */; };
@@ -164,6 +165,7 @@
 		CA493FAF2AE1500E007C1CB1 /* CacheDownloadingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheDownloadingImage.swift; sourceTree = "<group>"; };
 		CA5709882AF3D69100897798 /* GenericBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBootcamp.swift; sourceTree = "<group>"; };
 		CA57B81A2B04B4350004CF18 /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
+		CA57B81C2B04C1E50004CF18 /* ErrorAlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlertBootcamp.swift; sourceTree = "<group>"; };
 		CA57D2DF2AF90E95009DA7D3 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		CA57D2E12AF9351B009DA7D3 /* CustomNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarView.swift; sourceTree = "<group>"; };
 		CA5B039B2AFB860D00E67E62 /* DependencyInjectionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionBootcamp.swift; sourceTree = "<group>"; };
@@ -334,6 +336,7 @@
 				CAFA5C882B03907200C0E5E3 /* CloudKitNotificationBootcamp.swift */,
 				CAFA5C8A2B039DFC00C0E5E3 /* TimelineViewBootcamp.swift */,
 				CA57B81A2B04B4350004CF18 /* BindingBootcamp.swift */,
+				CA57B81C2B04C1E50004CF18 /* ErrorAlertBootcamp.swift */,
 				CA5B039F2AFBA31500E67E62 /* UnitTestingBootcamp */,
 				CA691D3A2AFCCE3A00530367 /* UITestingBootcamp */,
 				AC48BDFF293A2451009A2C75 /* FruitsContainer.xcdatamodeld */,
@@ -647,6 +650,7 @@
 				CA69C7452ADFB81F0004FE95 /* SubscriberBootcamp.swift in Sources */,
 				ACE02D1B29154F37002840CF /* LocalPushNotificationsBootcamp.swift in Sources */,
 				CABF85A62AF249640035D04C /* ButtonStyleBootcamp.swift in Sources */,
+				CA57B81D2B04C1E50004CF18 /* ErrorAlertBootcamp.swift in Sources */,
 				CA493F9B2AE10674007C1CB1 /* CatchImageBootcamp.swift in Sources */,
 				CAFA5C8B2B039DFC00C0E5E3 /* TimelineViewBootcamp.swift in Sources */,
 				CA493FA22AE1183E007C1CB1 /* DownloadingImagesBootcamp.swift in Sources */,
