@@ -77,6 +77,7 @@
 		CA72A84E2AF4D5B600E45517 /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA72A84D2AF4D5B600E45517 /* ViewBuilderBootcamp.swift */; };
 		CA72A8502AF4DBA700E45517 /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA72A84F2AF4DBA700E45517 /* PreferenceKeyBootcamp.swift */; };
 		CA79460F2AF0EDB500822101 /* PhotoPickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79460E2AF0EDB500822101 /* PhotoPickerBootcamp.swift */; };
+		CA7B28EC2B0605F900556D72 /* PropertyWrapperBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7B28EB2B0605F900556D72 /* PropertyWrapperBootcamp.swift */; };
 		CA96D1C42AFA2E8600D18ADF /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96D1C32AFA2E8600D18ADF /* UIViewRepresentableBootcamp.swift */; };
 		CA96D1C62AFA462A00D18ADF /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96D1C52AFA462A00D18ADF /* UIViewControllerRepresentableBootcamp.swift */; };
 		CA96D1C82AFA59E000D18ADF /* ProtocolBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96D1C72AFA59E000D18ADF /* ProtocolBootcamp.swift */; };
@@ -186,6 +187,7 @@
 		CA72A84D2AF4D5B600E45517 /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
 		CA72A84F2AF4DBA700E45517 /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		CA79460E2AF0EDB500822101 /* PhotoPickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerBootcamp.swift; sourceTree = "<group>"; };
+		CA7B28EB2B0605F900556D72 /* PropertyWrapperBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperBootcamp.swift; sourceTree = "<group>"; };
 		CA96D1C32AFA2E8600D18ADF /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		CA96D1C52AFA462A00D18ADF /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
 		CA96D1C72AFA59E000D18ADF /* ProtocolBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolBootcamp.swift; sourceTree = "<group>"; };
@@ -337,6 +339,7 @@
 				CAFA5C8A2B039DFC00C0E5E3 /* TimelineViewBootcamp.swift */,
 				CA57B81A2B04B4350004CF18 /* BindingBootcamp.swift */,
 				CA57B81C2B04C1E50004CF18 /* ErrorAlertBootcamp.swift */,
+				CA7B28EB2B0605F900556D72 /* PropertyWrapperBootcamp.swift */,
 				CA5B039F2AFBA31500E67E62 /* UnitTestingBootcamp */,
 				CA691D3A2AFCCE3A00530367 /* UITestingBootcamp */,
 				AC48BDFF293A2451009A2C75 /* FruitsContainer.xcdatamodeld */,
@@ -615,6 +618,7 @@
 				AC3A6FFE290A64A90094C0F0 /* DragGestureBootcamp.swift in Sources */,
 				CACCFE092AEFA3F300BE123E /* RefreshableBootcamp.swift in Sources */,
 				CA72A8502AF4DBA700E45517 /* PreferenceKeyBootcamp.swift in Sources */,
+				CA7B28EC2B0605F900556D72 /* PropertyWrapperBootcamp.swift in Sources */,
 				CA5B03A12AFBA33500E67E62 /* UnitTestingViewModel.swift in Sources */,
 				CABF85A82AF24F530035D04C /* AnyTransitionBootcamp.swift in Sources */,
 				AC40F14629093BD000BC29DF /* LongPressGustureBootcamp.swift in Sources */,
