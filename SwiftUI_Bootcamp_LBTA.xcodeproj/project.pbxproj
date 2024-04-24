@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		881492922BD90A8100B91F38 /* NetflixHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881492912BD90A8100B91F38 /* NetflixHomeView.swift */; };
+		881492972BD90E6E00B91F38 /* DropdownFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881492962BD90E6E00B91F38 /* DropdownFilterCell.swift */; };
+		889C69922BD95F2700A3A8E9 /* HorizontalFilterBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889C69912BD95F2700A3A8E9 /* HorizontalFilterBarView.swift */; };
 		AC1761BF2923831F006E6700 /* SelectedServerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761BE2923831F006E6700 /* SelectedServerBootcamp.swift */; };
 		AC1761C8292385AB006E6700 /* NotificationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C1292385AB006E6700 /* NotificationToken.swift */; };
 		AC1761C9292385AB006E6700 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C2292385AB006E6700 /* UserDefaults.swift */; };
@@ -113,6 +116,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		881492912BD90A8100B91F38 /* NetflixHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixHomeView.swift; sourceTree = "<group>"; };
+		881492962BD90E6E00B91F38 /* DropdownFilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownFilterCell.swift; sourceTree = "<group>"; };
+		889C69912BD95F2700A3A8E9 /* HorizontalFilterBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalFilterBarView.swift; sourceTree = "<group>"; };
 		AC1761BE2923831F006E6700 /* SelectedServerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedServerBootcamp.swift; sourceTree = "<group>"; };
 		AC1761C1292385AB006E6700 /* NotificationToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationToken.swift; sourceTree = "<group>"; };
 		AC1761C2292385AB006E6700 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
@@ -231,6 +237,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		881492902BD90A2800B91F38 /* Netflilx_LBTA */ = {
+			isa = PBXGroup;
+			children = (
+				881492942BD90A8900B91F38 /* Components */,
+				881492932BD90A8400B91F38 /* Core */,
+			);
+			path = Netflilx_LBTA;
+			sourceTree = "<group>";
+		};
+		881492932BD90A8400B91F38 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				881492952BD90E5500B91F38 /* DropdownCell */,
+				881492912BD90A8100B91F38 /* NetflixHomeView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		881492942BD90A8900B91F38 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		881492952BD90E5500B91F38 /* DropdownCell */ = {
+			isa = PBXGroup;
+			children = (
+				881492962BD90E6E00B91F38 /* DropdownFilterCell.swift */,
+				889C69912BD95F2700A3A8E9 /* HorizontalFilterBarView.swift */,
+			);
+			path = DropdownCell;
+			sourceTree = "<group>";
+		};
 		AC1761C029238592006E6700 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,6 +320,7 @@
 			children = (
 				CA5CFEB32AFD1EBD0001BD53 /* SwiftUI_Bootcamp_LBTA.entitlements */,
 				AC1761CF292385F5006E6700 /* SwiftUI-Bootcamp-LBTA-Info.plist */,
+				881492902BD90A2800B91F38 /* Netflilx_LBTA */,
 				AC549D45290BE3C600B34EB7 /* Sounds */,
 				AC1761C029238592006E6700 /* Extension */,
 				AC3DD8C729389BB500E4927B /* Project */,
@@ -603,6 +644,7 @@
 				CA5B90812B0214AA00CAD250 /* CombineBootcamp.swift in Sources */,
 				CA493FAE2AE149CD007C1CB1 /* ImageLoadingViewModel.swift in Sources */,
 				CA96D1C82AFA59E000D18ADF /* ProtocolBootcamp.swift in Sources */,
+				881492972BD90E6E00B91F38 /* DropdownFilterCell.swift in Sources */,
 				CA985D0B2AE7E46300CFC206 /* DoCatchTryBootcamp.swift in Sources */,
 				CAFA5C872B03632200C0E5E3 /* FutureCombineBootcamp.swift in Sources */,
 				CA5709892AF3D69100897798 /* GenericBootcamp.swift in Sources */,
@@ -658,9 +700,11 @@
 				CA493F9B2AE10674007C1CB1 /* CatchImageBootcamp.swift in Sources */,
 				CAFA5C8B2B039DFC00C0E5E3 /* TimelineViewBootcamp.swift in Sources */,
 				CA493FA22AE1183E007C1CB1 /* DownloadingImagesBootcamp.swift in Sources */,
+				889C69922BD95F2700A3A8E9 /* HorizontalFilterBarView.swift in Sources */,
 				CA9D251D2ADFEBDD0067AE5E /* FileManagerBootcamp.swift in Sources */,
 				AC40F1382909396100BC29DF /* SwiftUI_Bootcamp_LBTAApp.swift in Sources */,
 				CA493FA42AE11889007C1CB1 /* DownloadingImagesViewModel.swift in Sources */,
+				881492922BD90A8100B91F38 /* NetflixHomeView.swift in Sources */,
 				CA96D1C42AFA2E8600D18ADF /* UIViewRepresentableBootcamp.swift in Sources */,
 				AC3A6FFC290A61030094C0F0 /* RotationGestureBootcamp.swift in Sources */,
 				CA5CFEB52AFD20F00001BD53 /* CloudKitBootcamp.swift in Sources */,
