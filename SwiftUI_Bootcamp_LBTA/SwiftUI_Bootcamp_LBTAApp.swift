@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_Bootcamp_LBTAApp: App {
     var body: some Scene {
         WindowGroup {
-            NetflixHomeView()
+            ContentView()
         }
     }
 }

@@ -15,6 +15,8 @@ struct CompassView: View {
     @State private var isDragging = false
     @State private var show = false
     
+    @Binding var isShow: Bool
+    
     var body: some View {
         ZStack {
             background
@@ -35,8 +37,8 @@ struct CompassView: View {
             light
             title
             sheet
-            buttons
         }
+        .overlay { if !show { buttons} }
         .onTapGesture {
             withAnimation {
                 show.toggle()
@@ -50,9 +52,13 @@ private extension CompassView {
     
     var buttons: some View {
         HStack(spacing: 40) {
+            ButtonViewOnTapped(image: "menucard") {
+                isShow = true
+            }
             ButtonView()
-            ButtonView()
-            ButtonView()
+            ButtonViewOnTapped(image: "house") {
+                isShow = true
+            }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
         .padding(.bottom, 40)
@@ -324,5 +330,5 @@ private extension CompassView {
 }
 
 #Preview {
-    CompassView()
+    CompassView(isShow: .constant(false))
 }

@@ -30,5 +30,5 @@ struct CircleLabelView: View {
 }
 
 #Preview {
-    CompassView()
+    CircleLabelView()
 }

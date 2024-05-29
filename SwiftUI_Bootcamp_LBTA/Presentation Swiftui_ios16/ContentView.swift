@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var showMenu = false
     @AppStorage("selectedMenu") private var selectedMenu: NavigationItem.Menu = .compass
+    
+    @State private var showMenu = false
     @State private var completedLongPress = false
     @GestureState private var isDetectingLongPress = false
     
@@ -18,12 +19,10 @@ struct ContentView: View {
             Color(.systemBackground).ignoresSafeArea()
             
             switch selectedMenu {
-            case .compass: CompassView()
+            case .compass: CompassView(isShow: $showMenu)
             case .card: CardView()
             case .charts: ChartView()
             case .radial: RadialLayoutView()
-            case .halfsheet: Text("halfsheet")
-            case .gooey: Text("gooey")
             case .actionbutton: ActionButtonView()
             }
         }
