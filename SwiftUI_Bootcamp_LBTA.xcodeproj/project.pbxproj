@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		881492922BD90A8100B91F38 /* NetflixHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881492912BD90A8100B91F38 /* NetflixHomeView.swift */; };
 		881492972BD90E6E00B91F38 /* DropdownFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881492962BD90E6E00B91F38 /* DropdownFilterCell.swift */; };
+		8833F99D2C07142600A7F15F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F99C2C07142500A7F15F /* ContentView.swift */; };
+		8833F9A22C07143600A7F15F /* CircleLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F99E2C07143600A7F15F /* CircleLabelView.swift */; };
+		8833F9A32C07143600A7F15F /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F99F2C07143600A7F15F /* CompassView.swift */; };
+		8833F9A42C07143600A7F15F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9A02C07143600A7F15F /* LocationManager.swift */; };
 		889C69922BD95F2700A3A8E9 /* HorizontalFilterBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889C69912BD95F2700A3A8E9 /* HorizontalFilterBarView.swift */; };
 		AC1761BF2923831F006E6700 /* SelectedServerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761BE2923831F006E6700 /* SelectedServerBootcamp.swift */; };
 		AC1761C8292385AB006E6700 /* NotificationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C1292385AB006E6700 /* NotificationToken.swift */; };
@@ -118,6 +122,10 @@
 /* Begin PBXFileReference section */
 		881492912BD90A8100B91F38 /* NetflixHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixHomeView.swift; sourceTree = "<group>"; };
 		881492962BD90E6E00B91F38 /* DropdownFilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownFilterCell.swift; sourceTree = "<group>"; };
+		8833F99C2C07142500A7F15F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8833F99E2C07143600A7F15F /* CircleLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLabelView.swift; sourceTree = "<group>"; };
+		8833F99F2C07143600A7F15F /* CompassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
+		8833F9A02C07143600A7F15F /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		889C69912BD95F2700A3A8E9 /* HorizontalFilterBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalFilterBarView.swift; sourceTree = "<group>"; };
 		AC1761BE2923831F006E6700 /* SelectedServerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedServerBootcamp.swift; sourceTree = "<group>"; };
 		AC1761C1292385AB006E6700 /* NotificationToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationToken.swift; sourceTree = "<group>"; };
@@ -271,6 +279,16 @@
 			path = DropdownCell;
 			sourceTree = "<group>";
 		};
+		8833F9A12C07143600A7F15F /* Compass  */ = {
+			isa = PBXGroup;
+			children = (
+				8833F99E2C07143600A7F15F /* CircleLabelView.swift */,
+				8833F99F2C07143600A7F15F /* CompassView.swift */,
+				8833F9A02C07143600A7F15F /* LocationManager.swift */,
+			);
+			path = "Compass ";
+			sourceTree = "<group>";
+		};
 		AC1761C029238592006E6700 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -325,6 +343,8 @@
 				AC1761C029238592006E6700 /* Extension */,
 				AC3DD8C729389BB500E4927B /* Project */,
 				CA493F9C2AE117F3007C1CB1 /* DownloadingImages */,
+				8833F9A12C07143600A7F15F /* Compass  */,
+				8833F99C2C07142500A7F15F /* ContentView.swift */,
 				AC40F1372909396100BC29DF /* SwiftUI_Bootcamp_LBTAApp.swift */,
 				AC40F14529093BD000BC29DF /* LongPressGustureBootcamp.swift */,
 				AC40F1472909561D00BC29DF /* MagnificationGestureBootcamp.swift */,
@@ -629,6 +649,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA691D3C2AFCCE5200530367 /* UITestingBootcamp.swift in Sources */,
+				8833F9A22C07143600A7F15F /* CircleLabelView.swift in Sources */,
 				CACCFE0B2AEFC90A00BE123E /* SearchableBootcamp.swift in Sources */,
 				AC1761D129238651006E6700 /* RoundedCorner.swift in Sources */,
 				CA493FB02AE1500E007C1CB1 /* CacheDownloadingImage.swift in Sources */,
@@ -695,7 +716,9 @@
 				CA47105E2AE91A3100919BB3 /* TaskBootcamp.swift in Sources */,
 				CA69C7452ADFB81F0004FE95 /* SubscriberBootcamp.swift in Sources */,
 				ACE02D1B29154F37002840CF /* LocalPushNotificationsBootcamp.swift in Sources */,
+				8833F9A32C07143600A7F15F /* CompassView.swift in Sources */,
 				CABF85A62AF249640035D04C /* ButtonStyleBootcamp.swift in Sources */,
+				8833F99D2C07142600A7F15F /* ContentView.swift in Sources */,
 				CA57B81D2B04C1E50004CF18 /* ErrorAlertBootcamp.swift in Sources */,
 				CA493F9B2AE10674007C1CB1 /* CatchImageBootcamp.swift in Sources */,
 				CAFA5C8B2B039DFC00C0E5E3 /* TimelineViewBootcamp.swift in Sources */,
@@ -705,6 +728,7 @@
 				AC40F1382909396100BC29DF /* SwiftUI_Bootcamp_LBTAApp.swift in Sources */,
 				CA493FA42AE11889007C1CB1 /* DownloadingImagesViewModel.swift in Sources */,
 				881492922BD90A8100B91F38 /* NetflixHomeView.swift in Sources */,
+				8833F9A42C07143600A7F15F /* LocationManager.swift in Sources */,
 				CA96D1C42AFA2E8600D18ADF /* UIViewRepresentableBootcamp.swift in Sources */,
 				AC3A6FFC290A61030094C0F0 /* RotationGestureBootcamp.swift in Sources */,
 				CA5CFEB52AFD20F00001BD53 /* CloudKitBootcamp.swift in Sources */,
