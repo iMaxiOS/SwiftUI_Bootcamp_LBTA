@@ -29,6 +29,13 @@
 		8833F9C32C0714B400A7F15F /* TooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9B32C0714B300A7F15F /* TooltipView.swift */; };
 		8833F9C42C0714B400A7F15F /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9B42C0714B300A7F15F /* NavigationStackView.swift */; };
 		8833F9C52C0714B400A7F15F /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9B52C0714B400A7F15F /* ActionButtonView.swift */; };
+		8833F9E22C08A7C400A7F15F /* ExpenseHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9E12C08A7C400A7F15F /* ExpenseHomeView.swift */; };
+		8833F9E62C08AA9800A7F15F /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9E52C08AA9800A7F15F /* TransactionModel.swift */; };
+		8833F9E82C08AD5C00A7F15F /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9E72C08AD5C00A7F15F /* TransactionRow.swift */; };
+		8833F9EA2C08B0C100A7F15F /* Ext+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9E92C08B0C100A7F15F /* Ext+Date.swift */; };
+		8833F9EC2C08B18300A7F15F /* Ext+UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9EB2C08B18300A7F15F /* Ext+UIDevice.swift */; };
+		8833F9EE2C08B1A500A7F15F /* Ext+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9ED2C08B1A500A7F15F /* Ext+Font.swift */; };
+		8833F9F02C08B22200A7F15F /* Ext+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9EF2C08B22200A7F15F /* Ext+String.swift */; };
 		889C69922BD95F2700A3A8E9 /* HorizontalFilterBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889C69912BD95F2700A3A8E9 /* HorizontalFilterBarView.swift */; };
 		AC1761BF2923831F006E6700 /* SelectedServerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761BE2923831F006E6700 /* SelectedServerBootcamp.swift */; };
 		AC1761C8292385AB006E6700 /* NotificationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C1292385AB006E6700 /* NotificationToken.swift */; };
@@ -158,6 +165,13 @@
 		8833F9B32C0714B300A7F15F /* TooltipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TooltipView.swift; sourceTree = "<group>"; };
 		8833F9B42C0714B300A7F15F /* NavigationStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
 		8833F9B52C0714B400A7F15F /* ActionButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
+		8833F9E12C08A7C400A7F15F /* ExpenseHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseHomeView.swift; sourceTree = "<group>"; };
+		8833F9E52C08AA9800A7F15F /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		8833F9E72C08AD5C00A7F15F /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
+		8833F9E92C08B0C100A7F15F /* Ext+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+Date.swift"; sourceTree = "<group>"; };
+		8833F9EB2C08B18300A7F15F /* Ext+UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIDevice.swift"; sourceTree = "<group>"; };
+		8833F9ED2C08B1A500A7F15F /* Ext+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+Font.swift"; sourceTree = "<group>"; };
+		8833F9EF2C08B22200A7F15F /* Ext+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+String.swift"; sourceTree = "<group>"; };
 		889C69912BD95F2700A3A8E9 /* HorizontalFilterBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalFilterBarView.swift; sourceTree = "<group>"; };
 		AC1761BE2923831F006E6700 /* SelectedServerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedServerBootcamp.swift; sourceTree = "<group>"; };
 		AC1761C1292385AB006E6700 /* NotificationToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationToken.swift; sourceTree = "<group>"; };
@@ -345,15 +359,29 @@
 			path = "Presentation Swiftui_ios16";
 			sourceTree = "<group>";
 		};
+		8833F9E02C08A7A200A7F15F /* ExprenseTracker */ = {
+			isa = PBXGroup;
+			children = (
+				8833F9E12C08A7C400A7F15F /* ExpenseHomeView.swift */,
+				8833F9E72C08AD5C00A7F15F /* TransactionRow.swift */,
+				8833F9E52C08AA9800A7F15F /* TransactionModel.swift */,
+			);
+			path = ExprenseTracker;
+			sourceTree = "<group>";
+		};
 		AC1761C029238592006E6700 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				AC1761D029238651006E6700 /* RoundedCorner.swift */,
 				AC1761C5292385AB006E6700 /* Fonts */,
 				AC1761C3292385AB006E6700 /* Constants.swift */,
+				8833F9ED2C08B1A500A7F15F /* Ext+Font.swift */,
+				8833F9EB2C08B18300A7F15F /* Ext+UIDevice.swift */,
+				8833F9E92C08B0C100A7F15F /* Ext+Date.swift */,
 				AC1761C7292385AB006E6700 /* Ext+Image.swift */,
 				AC1761C4292385AB006E6700 /* Ext+View.swift */,
+				8833F9EF2C08B22200A7F15F /* Ext+String.swift */,
 				AC1761C1292385AB006E6700 /* NotificationToken.swift */,
+				AC1761D029238651006E6700 /* RoundedCorner.swift */,
 				AC1761C2292385AB006E6700 /* UserDefaults.swift */,
 			);
 			path = Extension;
@@ -394,6 +422,8 @@
 			children = (
 				CA5CFEB32AFD1EBD0001BD53 /* SwiftUI_Bootcamp_LBTA.entitlements */,
 				AC1761CF292385F5006E6700 /* SwiftUI-Bootcamp-LBTA-Info.plist */,
+				AC40F1372909396100BC29DF /* SwiftUI_Bootcamp_LBTAApp.swift */,
+				8833F9E02C08A7A200A7F15F /* ExprenseTracker */,
 				881492902BD90A2800B91F38 /* Netflilx_LBTA */,
 				AC549D45290BE3C600B34EB7 /* Sounds */,
 				AC1761C029238592006E6700 /* Extension */,
@@ -401,7 +431,6 @@
 				CA493F9C2AE117F3007C1CB1 /* DownloadingImages */,
 				8833F9A12C07143600A7F15F /* Compass  */,
 				8833F9A52C07149400A7F15F /* Presentation Swiftui_ios16 */,
-				AC40F1372909396100BC29DF /* SwiftUI_Bootcamp_LBTAApp.swift */,
 				AC40F14529093BD000BC29DF /* LongPressGustureBootcamp.swift */,
 				AC40F1472909561D00BC29DF /* MagnificationGestureBootcamp.swift */,
 				AC3A6FFB290A61020094C0F0 /* RotationGestureBootcamp.swift */,
@@ -733,11 +762,13 @@
 				CA5709892AF3D69100897798 /* GenericBootcamp.swift in Sources */,
 				CA1D3B782AEA7D1700B3E442 /* DragAndDropGestureBootcamp.swift in Sources */,
 				CABF85AA2AF269020035D04C /* MatchedGeometryEffectBootcamp.swift in Sources */,
+				8833F9E82C08AD5C00A7F15F /* TransactionRow.swift in Sources */,
 				CABF85A42AF245680035D04C /* ViewModifierBootcamp.swift in Sources */,
 				AC1761CE292385AB006E6700 /* Ext+Image.swift in Sources */,
 				AC48BDFE293A22B5009A2C75 /* CoreDataBootcamp.swift in Sources */,
 				8833F9C12C0714B400A7F15F /* Data.swift in Sources */,
 				AC549D40290BCE1C00B34EB7 /* MaskBootcamp.swift in Sources */,
+				8833F9E22C08A7C400A7F15F /* ExpenseHomeView.swift in Sources */,
 				CA5B039C2AFB860D00E67E62 /* DependencyInjectionBootcamp.swift in Sources */,
 				CA493FAC2AE14958007C1CB1 /* DownloadingImageView.swift in Sources */,
 				CA1D3B762AEA485F00B3E442 /* GlobalActorsBootcamp.swift in Sources */,
@@ -758,14 +789,17 @@
 				AC549D3E290BA99500B34EB7 /* MultipleSheetsBootcamp.swift in Sources */,
 				8833F9B82C0714B400A7F15F /* MenuView.swift in Sources */,
 				AC3DD8C929389BC700E4927B /* CustomTextFieldView.swift in Sources */,
+				8833F9EC2C08B18300A7F15F /* Ext+UIDevice.swift in Sources */,
 				AC3DD8C629389B3900E4927B /* LoginView.swift in Sources */,
 				8833F9B92C0714B400A7F15F /* DetailView.swift in Sources */,
 				CA57B81B2B04B4350004CF18 /* BindingBootcamp.swift in Sources */,
 				CA96D1C62AFA462A00D18ADF /* UIViewControllerRepresentableBootcamp.swift in Sources */,
 				AC48BE01293A2451009A2C75 /* FruitsContainer.xcdatamodeld in Sources */,
 				AC1761CB292385AB006E6700 /* Ext+View.swift in Sources */,
+				8833F9EA2C08B0C100A7F15F /* Ext+Date.swift in Sources */,
 				CA79460F2AF0EDB500822101 /* PhotoPickerBootcamp.swift in Sources */,
 				AC40F1482909561D00BC29DF /* MagnificationGestureBootcamp.swift in Sources */,
+				8833F9E62C08AA9800A7F15F /* TransactionModel.swift in Sources */,
 				8833F9C22C0714B400A7F15F /* ChartView.swift in Sources */,
 				AC549D42290BE01A00B34EB7 /* SoundBootcamp.swift in Sources */,
 				8833F9C42C0714B400A7F15F /* NavigationStackView.swift in Sources */,
@@ -783,6 +817,7 @@
 				AC5F4CCC290AC7AC00A84A2E /* GeometryReaderBootcamp.swift in Sources */,
 				AC1761CA292385AB006E6700 /* Constants.swift in Sources */,
 				ACE02D1929154C0E002840CF /* HapticsBootcamp.swift in Sources */,
+				8833F9EE2C08B1A500A7F15F /* Ext+Font.swift in Sources */,
 				CA47105E2AE91A3100919BB3 /* TaskBootcamp.swift in Sources */,
 				CA69C7452ADFB81F0004FE95 /* SubscriberBootcamp.swift in Sources */,
 				ACE02D1B29154F37002840CF /* LocalPushNotificationsBootcamp.swift in Sources */,
@@ -798,6 +833,7 @@
 				AC40F1382909396100BC29DF /* SwiftUI_Bootcamp_LBTAApp.swift in Sources */,
 				CA493FA42AE11889007C1CB1 /* DownloadingImagesViewModel.swift in Sources */,
 				881492922BD90A8100B91F38 /* NetflixHomeView.swift in Sources */,
+				8833F9F02C08B22200A7F15F /* Ext+String.swift in Sources */,
 				8833F9BA2C0714B400A7F15F /* GridView.swift in Sources */,
 				8833F9A42C07143600A7F15F /* LocationManager.swift in Sources */,
 				CA96D1C42AFA2E8600D18ADF /* UIViewRepresentableBootcamp.swift in Sources */,
