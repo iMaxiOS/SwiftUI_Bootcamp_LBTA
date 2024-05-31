@@ -36,6 +36,10 @@
 		8833F9EC2C08B18300A7F15F /* Ext+UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9EB2C08B18300A7F15F /* Ext+UIDevice.swift */; };
 		8833F9EE2C08B1A500A7F15F /* Ext+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9ED2C08B1A500A7F15F /* Ext+Font.swift */; };
 		8833F9F02C08B22200A7F15F /* Ext+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9EF2C08B22200A7F15F /* Ext+String.swift */; };
+		8833F9F22C09A36A00A7F15F /* TransactionListModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9F12C09A36A00A7F15F /* TransactionListModelView.swift */; };
+		8833F9F42C09AC8A00A7F15F /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9F32C09AC8A00A7F15F /* RecentTransactionList.swift */; };
+		8833F9F82C09B47A00A7F15F /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 8833F9F72C09B47A00A7F15F /* SwiftUIFontIcon */; };
+		8833F9FA2C09C22A00A7F15F /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9F92C09C22A00A7F15F /* TransactionList.swift */; };
 		889C69922BD95F2700A3A8E9 /* HorizontalFilterBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889C69912BD95F2700A3A8E9 /* HorizontalFilterBarView.swift */; };
 		AC1761BF2923831F006E6700 /* SelectedServerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761BE2923831F006E6700 /* SelectedServerBootcamp.swift */; };
 		AC1761C8292385AB006E6700 /* NotificationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C1292385AB006E6700 /* NotificationToken.swift */; };
@@ -172,6 +176,9 @@
 		8833F9EB2C08B18300A7F15F /* Ext+UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIDevice.swift"; sourceTree = "<group>"; };
 		8833F9ED2C08B1A500A7F15F /* Ext+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+Font.swift"; sourceTree = "<group>"; };
 		8833F9EF2C08B22200A7F15F /* Ext+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+String.swift"; sourceTree = "<group>"; };
+		8833F9F12C09A36A00A7F15F /* TransactionListModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListModelView.swift; sourceTree = "<group>"; };
+		8833F9F32C09AC8A00A7F15F /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
+		8833F9F92C09C22A00A7F15F /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
 		889C69912BD95F2700A3A8E9 /* HorizontalFilterBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalFilterBarView.swift; sourceTree = "<group>"; };
 		AC1761BE2923831F006E6700 /* SelectedServerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedServerBootcamp.swift; sourceTree = "<group>"; };
 		AC1761C1292385AB006E6700 /* NotificationToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationToken.swift; sourceTree = "<group>"; };
@@ -270,6 +277,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8833F9F82C09B47A00A7F15F /* SwiftUIFontIcon in Frameworks */,
 				CA1D3B7B2AEA8D5400B3E442 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,9 +372,19 @@
 			children = (
 				8833F9E12C08A7C400A7F15F /* ExpenseHomeView.swift */,
 				8833F9E72C08AD5C00A7F15F /* TransactionRow.swift */,
+				8833F9F32C09AC8A00A7F15F /* RecentTransactionList.swift */,
+				8833F9F92C09C22A00A7F15F /* TransactionList.swift */,
+				8833F9F12C09A36A00A7F15F /* TransactionListModelView.swift */,
 				8833F9E52C08AA9800A7F15F /* TransactionModel.swift */,
 			);
 			path = ExprenseTracker;
+			sourceTree = "<group>";
+		};
+		8833F9F62C09B47A00A7F15F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AC1761C029238592006E6700 /* Extension */ = {
@@ -404,6 +422,7 @@
 				CA5B03A72AFBA3D100E67E62 /* SwiftUI_Bootcamp_LBTA_Tests */,
 				CA691D422AFCD84800530367 /* SwiftUI_Bootcamp_LBTA_UITests */,
 				AC40F1352909396100BC29DF /* Products */,
+				8833F9F62C09B47A00A7F15F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -611,6 +630,7 @@
 			name = SwiftUI_Bootcamp_LBTA;
 			packageProductDependencies = (
 				CA1D3B7A2AEA8D5400B3E442 /* Algorithms */,
+				8833F9F72C09B47A00A7F15F /* SwiftUIFontIcon */,
 			);
 			productName = SwiftUI_Bootcamp_LBTA;
 			productReference = AC40F1342909396100BC29DF /* SwiftUI_Bootcamp_LBTA.app */;
@@ -686,6 +706,7 @@
 			mainGroup = AC40F12B2909396100BC29DF;
 			packageReferences = (
 				CA1D3B792AEA8D5400B3E442 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				8833F9F52C09B3AB00A7F15F /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
 			);
 			productRefGroup = AC40F1352909396100BC29DF /* Products */;
 			projectDirPath = "";
@@ -740,6 +761,7 @@
 				AC1761D129238651006E6700 /* RoundedCorner.swift in Sources */,
 				CA493FB02AE1500E007C1CB1 /* CacheDownloadingImage.swift in Sources */,
 				CAFA5C892B03907200C0E5E3 /* CloudKitNotificationBootcamp.swift in Sources */,
+				8833F9F22C09A36A00A7F15F /* TransactionListModelView.swift in Sources */,
 				8833F9BD2C0714B400A7F15F /* ButtonView.swift in Sources */,
 				8833F9BE2C0714B400A7F15F /* MotionManager.swift in Sources */,
 				AC5D7D7C291D429F009C02F6 /* HashableBootcamp.swift in Sources */,
@@ -758,6 +780,7 @@
 				CA985D0B2AE7E46300CFC206 /* DoCatchTryBootcamp.swift in Sources */,
 				CAFA5C872B03632200C0E5E3 /* FutureCombineBootcamp.swift in Sources */,
 				8833F9B62C0714B400A7F15F /* IconSVG.swift in Sources */,
+				8833F9FA2C09C22A00A7F15F /* TransactionList.swift in Sources */,
 				8833F9BF2C0714B400A7F15F /* MessageView.swift in Sources */,
 				CA5709892AF3D69100897798 /* GenericBootcamp.swift in Sources */,
 				CA1D3B782AEA7D1700B3E442 /* DragAndDropGestureBootcamp.swift in Sources */,
@@ -824,6 +847,7 @@
 				8833F9A32C07143600A7F15F /* CompassView.swift in Sources */,
 				CABF85A62AF249640035D04C /* ButtonStyleBootcamp.swift in Sources */,
 				8833F99D2C07142600A7F15F /* ContentView.swift in Sources */,
+				8833F9F42C09AC8A00A7F15F /* RecentTransactionList.swift in Sources */,
 				CA57B81D2B04C1E50004CF18 /* ErrorAlertBootcamp.swift in Sources */,
 				CA493F9B2AE10674007C1CB1 /* CatchImageBootcamp.swift in Sources */,
 				CAFA5C8B2B039DFC00C0E5E3 /* TimelineViewBootcamp.swift in Sources */,
@@ -1193,6 +1217,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		8833F9F52C09B3AB00A7F15F /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
 		CA1D3B792AEA8D5400B3E442 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-algorithms.git";
@@ -1204,6 +1236,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		8833F9F72C09B47A00A7F15F /* SwiftUIFontIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8833F9F52C09B3AB00A7F15F /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
+			productName = SwiftUIFontIcon;
+		};
 		CA1D3B7A2AEA8D5400B3E442 /* Algorithms */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CA1D3B792AEA8D5400B3E442 /* XCRemoteSwiftPackageReference "swift-algorithms" */;

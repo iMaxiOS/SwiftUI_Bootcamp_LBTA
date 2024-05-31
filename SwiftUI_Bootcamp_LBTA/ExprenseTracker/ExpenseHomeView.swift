@@ -14,6 +14,9 @@ struct ExpenseHomeView: View {
                 VStack(alignment: .leading, spacing: 24) {
                     Text("Overview")
                         .font(.title2.bold())
+                    
+                    
+                    RecentTransactionList()
                 }
                 .padding()
                 .frame(maxWidth: .infinity)
@@ -24,7 +27,7 @@ struct ExpenseHomeView: View {
                 ToolbarItem {
                     Image(systemName: "bell.badge")
                         .renderingMode(.original)
-                        .foregroundStyle(.accent, .primary)
+                        .foregroundStyle(Color(.accent), .primary)
                 }
             }
         }
@@ -33,4 +36,5 @@ struct ExpenseHomeView: View {
 
 #Preview {
     ExpenseHomeView()
+        .environmentObject(TransactionListModelView())
 }

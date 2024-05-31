@@ -1,4 +1,5 @@
 {
+  "originHash" : "723a9432f1ac217d904368b86fc85d51819d24cb456ce004732c7f9e8e45dec5",
   "pins" : [
     {
       "identity" : "swift-algorithms",
@@ -17,7 +18,16 @@
         "revision" : "0a5bc04095a675662cf24757cc0640aa2204253b",
         "version" : "1.0.2"
       }
+    },
+    {
+      "identity" : "swiftuifonticon",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/huybuidac/SwiftUIFontIcon",
+      "state" : {
+        "revision" : "4f170fbf443d985ae518a14a12ec8194ec6b08eb",
+        "version" : "2.1.0"
+      }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

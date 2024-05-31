@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct SwiftUI_Bootcamp_LBTAApp: App {
+    
+    @StateObject var viewModel = TransactionListModelView()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ExpenseHomeView()
+                .environmentObject(viewModel)
+            
+//            ContentView()
         }
     }
 }

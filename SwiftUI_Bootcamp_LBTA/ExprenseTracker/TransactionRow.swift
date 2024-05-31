@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftUIFontIcon
 
 struct TransactionRow: View {
     var transaction: Transaction
@@ -15,23 +16,18 @@ struct TransactionRow: View {
             RoundedRectangle(cornerRadius: 20)
                 .fill(
                     .linearGradient(
-                        colors: [.teal, .clear],
+                        colors: [Color(.accent), .clear],
                         startPoint: .topLeading,
                         endPoint: .bottomTrailing
                     )
                 )
                 .frame(width: 44, height: 44)
                 .overlay {
-                    Image(
-                        systemName: transaction.type == TransactionType.credit.rawValue ?
-                        "arrow.up.square.fill" : "arrow.down.square.fill"
-                    )
-                    .font(.title)
-                    .blendMode(.overlay)
+                    FontIcon.text(.awesome5Solid(code: transaction.icon), fontsize: 20, color: .white)
                 }
             
             VStack(alignment: .leading, spacing: 6) {
-                Text(transaction.marchant)
+                Text(transaction.merchant)
                     .font(.subheadline)
                     .bold()
                     .lineLimit(1)
@@ -51,9 +47,10 @@ struct TransactionRow: View {
             Spacer()
             
             Text(transaction.signedAmount, format: .currency(code: "USD"))
+                .font(.footnote)
                 .bold()
                 .foregroundStyle(
-                    transaction.type == TransactionType.credit.rawValue ? Color.teal : .primary
+                    transaction.type == TransactionType.credit.rawValue ? Color(.accent) : .primary
                 )
         }
         .padding([.top, .bottom], 8)
