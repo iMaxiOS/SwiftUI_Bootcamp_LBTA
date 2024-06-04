@@ -45,8 +45,7 @@ final class TaskGroupNetworkManager {
     }
     
     func fetchImages(url: String) async throws -> UIImage {
-        guard let url = URL(string: url) else { throw URLError(.badURL)
-        }
+        guard let url = URL(string: url) else { throw URLError(.badURL) }
         
         do {
             let (data, _) = try await URLSession.shared.data(from: url)
@@ -96,7 +95,7 @@ struct TaskGroupBootcamp: View {
                 }
                 .padding(.horizontal)
             }
-            .navigationTitle("Task Group..")
+            .navigationTitle("Task Group!!")
             .task {
                 await vm.fetchImages()
             }

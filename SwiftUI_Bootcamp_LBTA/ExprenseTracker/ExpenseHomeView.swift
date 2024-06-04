@@ -6,8 +6,12 @@
 //
 
 import SwiftUI
+import SwiftUICharts
 
 struct ExpenseHomeView: View {
+    
+    let mockData: [Double] = [0, 100, 40, 60, 120, 90, 130]
+    
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -15,6 +19,7 @@ struct ExpenseHomeView: View {
                     Text("Overview")
                         .font(.title2.bold())
                     
+                    LineChartView(data: mockData, title: "USDT $130", style: Styles.barChartStyleNeonBlueDark, form: ChartForm.extraLarge, rateValue: 10, valueSpecifier: "$%.01f")
                     
                     RecentTransactionList()
                 }

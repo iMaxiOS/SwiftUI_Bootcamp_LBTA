@@ -23,7 +23,11 @@ struct TransactionRow: View {
                 )
                 .frame(width: 44, height: 44)
                 .overlay {
-                    FontIcon.text(.awesome5Solid(code: transaction.icon), fontsize: 20, color: .white)
+                    FontIcon.text(
+                        .awesome5Solid(code: transaction.icon),
+                        fontsize: 20,
+                        color: .white
+                    )
                 }
             
             VStack(alignment: .leading, spacing: 6) {
