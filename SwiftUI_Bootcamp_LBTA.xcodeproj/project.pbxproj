@@ -42,6 +42,8 @@
 		8833F9FA2C09C22A00A7F15F /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8833F9F92C09C22A00A7F15F /* TransactionList.swift */; };
 		889C69922BD95F2700A3A8E9 /* HorizontalFilterBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889C69912BD95F2700A3A8E9 /* HorizontalFilterBarView.swift */; };
 		88E316602C0F3AD60060F36D /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 88E3165F2C0F3AD60060F36D /* SwiftUICharts */; };
+		88E316622C0F49790060F36D /* TransactionDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E316612C0F49790060F36D /* TransactionDetailRow.swift */; };
+		88E316642C0F4AD90060F36D /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E316632C0F4AD90060F36D /* TransactionView.swift */; };
 		AC1761BF2923831F006E6700 /* SelectedServerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761BE2923831F006E6700 /* SelectedServerBootcamp.swift */; };
 		AC1761C8292385AB006E6700 /* NotificationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C1292385AB006E6700 /* NotificationToken.swift */; };
 		AC1761C9292385AB006E6700 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C2292385AB006E6700 /* UserDefaults.swift */; };
@@ -181,6 +183,8 @@
 		8833F9F32C09AC8A00A7F15F /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
 		8833F9F92C09C22A00A7F15F /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
 		889C69912BD95F2700A3A8E9 /* HorizontalFilterBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalFilterBarView.swift; sourceTree = "<group>"; };
+		88E316612C0F49790060F36D /* TransactionDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailRow.swift; sourceTree = "<group>"; };
+		88E316632C0F4AD90060F36D /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
 		AC1761BE2923831F006E6700 /* SelectedServerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedServerBootcamp.swift; sourceTree = "<group>"; };
 		AC1761C1292385AB006E6700 /* NotificationToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationToken.swift; sourceTree = "<group>"; };
 		AC1761C2292385AB006E6700 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
@@ -374,6 +378,8 @@
 			children = (
 				8833F9E12C08A7C400A7F15F /* ExpenseHomeView.swift */,
 				8833F9E72C08AD5C00A7F15F /* TransactionRow.swift */,
+				88E316612C0F49790060F36D /* TransactionDetailRow.swift */,
+				88E316632C0F4AD90060F36D /* TransactionView.swift */,
 				8833F9F32C09AC8A00A7F15F /* RecentTransactionList.swift */,
 				8833F9F92C09C22A00A7F15F /* TransactionList.swift */,
 				8833F9F12C09A36A00A7F15F /* TransactionListModelView.swift */,
@@ -791,6 +797,7 @@
 				CABF85AA2AF269020035D04C /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				8833F9E82C08AD5C00A7F15F /* TransactionRow.swift in Sources */,
 				CABF85A42AF245680035D04C /* ViewModifierBootcamp.swift in Sources */,
+				88E316642C0F4AD90060F36D /* TransactionView.swift in Sources */,
 				AC1761CE292385AB006E6700 /* Ext+Image.swift in Sources */,
 				AC48BDFE293A22B5009A2C75 /* CoreDataBootcamp.swift in Sources */,
 				8833F9C12C0714B400A7F15F /* Data.swift in Sources */,
@@ -849,6 +856,7 @@
 				CA69C7452ADFB81F0004FE95 /* SubscriberBootcamp.swift in Sources */,
 				ACE02D1B29154F37002840CF /* LocalPushNotificationsBootcamp.swift in Sources */,
 				8833F9A32C07143600A7F15F /* CompassView.swift in Sources */,
+				88E316622C0F49790060F36D /* TransactionDetailRow.swift in Sources */,
 				CABF85A62AF249640035D04C /* ButtonStyleBootcamp.swift in Sources */,
 				8833F99D2C07142600A7F15F /* ContentView.swift in Sources */,
 				8833F9F42C09AC8A00A7F15F /* RecentTransactionList.swift in Sources */,
