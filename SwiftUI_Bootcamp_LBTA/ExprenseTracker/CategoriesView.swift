@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct CategoriesView: View {
+    @EnvironmentObject var transacationListVM: TransactionListModelView
+    
     var transaction: Transaction
     
     var body: some View {
@@ -18,11 +20,25 @@ struct CategoriesView: View {
                         let isSelected = transaction.categoryId == subcategory.id
                         
                         CategoryRow(category: subcategory, isSelected: isSelected)
+                            .background(.black.opacity(0.0001))
+                            .onTapGesture {
+                                transacationListVM.updateCategory(
+                                    transaction: transaction,
+                                    category: subcategory
+                                )
+                            }
                     }
                 } header: {
                     let isSelected = transaction.categoryId == category.id
                     
                     CategoryRow(category: category, isSelected: isSelected)
+                        .background(.black.opacity(0.0001))
+                        .onTapGesture {
+                            transacationListVM.updateCategory(
+                                transaction: transaction,
+                                category: category
+                            )
+                        }
                 }
             }
             .listSectionSeparator(.hidden)
@@ -35,4 +51,5 @@ struct CategoriesView: View {
 
 #Preview {
     CategoriesView(transaction: transactionMock)
+        .environmentObject(TransactionListModelView())
 }

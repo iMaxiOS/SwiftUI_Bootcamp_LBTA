@@ -56,7 +56,7 @@ struct TransactionView: View {
                 TransactionDetailRow(
                     icon: .list,
                     title: "Category",
-                    text: transaction.category
+                    text: transaction.categoryItem.name
                 )
             }
             

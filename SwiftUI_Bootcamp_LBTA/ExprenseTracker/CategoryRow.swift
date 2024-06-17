@@ -18,25 +18,23 @@ struct CategoryRow: View {
     
     var body: some View {
         HStack(spacing: 20) {
-            VStack {
-                RoundedRectangle(cornerRadius: 20)
-                    .fill(
-                        .linearGradient(
-                            colors: [Color(.accent), .clear],
-                            startPoint: .topLeading,
-                            endPoint: .bottomTrailing
-                        )
+            RoundedRectangle(cornerRadius: 20)
+                .fill(
+                    .linearGradient(
+                        colors: [Color(.accent), .clear],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
                     )
-                    .frame(width: isMain ? 44 : 32, height: isMain ? 44 : 32)
-                    .overlay {
-                        FontIcon.text(
-                            .awesome5Solid(code: category.icon),
-                            fontsize: isMain ? 24 : 16,
-                            color: .white
-                        )
+                )
+                .frame(width: isMain ? 44 : 32, height: isMain ? 44 : 32)
+                .overlay {
+                    FontIcon.text(
+                        .awesome5Solid(code: category.icon),
+                        fontsize: isMain ? 24 : 16,
+                        color: .white
+                    )
                 }
-            }
-            .frame(width: 50)
+                .frame(width: 50)
             
             if isMain {
                 Text(category.name)
@@ -46,8 +44,9 @@ struct CategoryRow: View {
                     .font(.subheadline)
             }
             
+            Spacer()
+            
             if isSelected {
-                Spacer()
                 Image(systemName: "checkmark.circle.fill")
                     .font(.system(size: 16))
                     .foregroundStyle(
@@ -69,8 +68,6 @@ struct CategoryRow: View {
                             )
                     }
             }
-            
-            
         }
     }
 }

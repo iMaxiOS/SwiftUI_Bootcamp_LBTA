@@ -21,7 +21,7 @@ struct Transaction: Identifiable, Decodable, Hashable {
     let isPending: Bool
     let isTransfer: Bool
     let isExpense: Bool
-    let isEdited: Bool
+    var isEdited: Bool
     
     var icon: FontAwesomeCode {
         if let category = Category.all.first(where: { $0.id == categoryId }) {
@@ -29,6 +29,14 @@ struct Transaction: Identifiable, Decodable, Hashable {
         }
         
         return .question
+    }
+    
+    var categoryItem: Category {
+        if let category = Category.all.first(where: { $0.id == categoryId }) {
+            return category
+        }
+        
+        return .shopping
     }
     
     var dateParsed: Date {

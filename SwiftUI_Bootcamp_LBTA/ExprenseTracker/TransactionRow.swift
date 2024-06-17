@@ -37,7 +37,7 @@ struct TransactionRow: View {
                     .bold()
                     .lineLimit(1)
                 
-                Text(transaction.category)
+                Text(transaction.categoryItem.name)
                     .foregroundStyle(.red)
                     .font(.footnote)
                     .opacity(0.7)
