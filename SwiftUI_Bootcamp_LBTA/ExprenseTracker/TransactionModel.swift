@@ -48,11 +48,15 @@ enum TransactionType: String {
     case debit, credit
 }
 
-struct Category {
+struct Category: Identifiable {
     let id: Int
     let name: String
     let icon: FontAwesomeCode
     var mainCategoryID: Int?
+    
+    var subcategories: [Category]? {
+        Category.subCategories.filter { $0.mainCategoryID == id }
+    }
 }
 
 extension Category {

@@ -44,6 +44,8 @@
 		88E316602C0F3AD60060F36D /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 88E3165F2C0F3AD60060F36D /* SwiftUICharts */; };
 		88E316622C0F49790060F36D /* TransactionDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E316612C0F49790060F36D /* TransactionDetailRow.swift */; };
 		88E316642C0F4AD90060F36D /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E316632C0F4AD90060F36D /* TransactionView.swift */; };
+		88E316662C0F53AB0060F36D /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E316652C0F53AB0060F36D /* CategoryRow.swift */; };
+		88E316682C0F5A350060F36D /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E316672C0F5A350060F36D /* CategoriesView.swift */; };
 		AC1761BF2923831F006E6700 /* SelectedServerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761BE2923831F006E6700 /* SelectedServerBootcamp.swift */; };
 		AC1761C8292385AB006E6700 /* NotificationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C1292385AB006E6700 /* NotificationToken.swift */; };
 		AC1761C9292385AB006E6700 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1761C2292385AB006E6700 /* UserDefaults.swift */; };
@@ -185,6 +187,8 @@
 		889C69912BD95F2700A3A8E9 /* HorizontalFilterBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalFilterBarView.swift; sourceTree = "<group>"; };
 		88E316612C0F49790060F36D /* TransactionDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailRow.swift; sourceTree = "<group>"; };
 		88E316632C0F4AD90060F36D /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		88E316652C0F53AB0060F36D /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		88E316672C0F5A350060F36D /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		AC1761BE2923831F006E6700 /* SelectedServerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedServerBootcamp.swift; sourceTree = "<group>"; };
 		AC1761C1292385AB006E6700 /* NotificationToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationToken.swift; sourceTree = "<group>"; };
 		AC1761C2292385AB006E6700 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
@@ -382,6 +386,8 @@
 				88E316632C0F4AD90060F36D /* TransactionView.swift */,
 				8833F9F32C09AC8A00A7F15F /* RecentTransactionList.swift */,
 				8833F9F92C09C22A00A7F15F /* TransactionList.swift */,
+				88E316652C0F53AB0060F36D /* CategoryRow.swift */,
+				88E316672C0F5A350060F36D /* CategoriesView.swift */,
 				8833F9F12C09A36A00A7F15F /* TransactionListModelView.swift */,
 				8833F9E52C08AA9800A7F15F /* TransactionModel.swift */,
 			);
@@ -790,6 +796,7 @@
 				CA985D0B2AE7E46300CFC206 /* DoCatchTryBootcamp.swift in Sources */,
 				CAFA5C872B03632200C0E5E3 /* FutureCombineBootcamp.swift in Sources */,
 				8833F9B62C0714B400A7F15F /* IconSVG.swift in Sources */,
+				88E316682C0F5A350060F36D /* CategoriesView.swift in Sources */,
 				8833F9FA2C09C22A00A7F15F /* TransactionList.swift in Sources */,
 				8833F9BF2C0714B400A7F15F /* MessageView.swift in Sources */,
 				CA5709892AF3D69100897798 /* GenericBootcamp.swift in Sources */,
@@ -828,6 +835,7 @@
 				8833F9B92C0714B400A7F15F /* DetailView.swift in Sources */,
 				CA57B81B2B04B4350004CF18 /* BindingBootcamp.swift in Sources */,
 				CA96D1C62AFA462A00D18ADF /* UIViewControllerRepresentableBootcamp.swift in Sources */,
+				88E316662C0F53AB0060F36D /* CategoryRow.swift in Sources */,
 				AC48BE01293A2451009A2C75 /* FruitsContainer.xcdatamodeld in Sources */,
 				AC1761CB292385AB006E6700 /* Ext+View.swift in Sources */,
 				8833F9EA2C08B0C100A7F15F /* Ext+Date.swift in Sources */,

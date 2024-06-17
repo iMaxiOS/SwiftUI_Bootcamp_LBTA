@@ -31,8 +31,6 @@ struct ExpenseHomeView: View {
             .toolbar {
                 ToolbarItem {
                     Image(systemName: "bell.badge")
-                        .renderingMode(.original)
-                        .foregroundStyle(Color(.accent), .primary)
                 }
             }
         }

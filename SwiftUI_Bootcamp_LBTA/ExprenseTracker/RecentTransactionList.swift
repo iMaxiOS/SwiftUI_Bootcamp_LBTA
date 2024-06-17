@@ -25,7 +25,7 @@ struct RecentTransactionList: View {
                         Text("See all")
                         Image(systemName: "chevron.right")
                     }
-                    .foregroundStyle(.teal)
+                    .foregroundStyle(.red)
                 }
             }
             .padding(.top)
@@ -36,6 +36,7 @@ struct RecentTransactionList: View {
                     TransactionView(transaction: transaction)
                 } label: {
                     TransactionRow(transaction: transaction)
+                        .foregroundStyle(.primary)
                 }
                 
                 Divider()

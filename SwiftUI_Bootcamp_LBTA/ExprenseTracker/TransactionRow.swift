@@ -32,11 +32,13 @@ struct TransactionRow: View {
             
             VStack(alignment: .leading, spacing: 6) {
                 Text(transaction.merchant)
+                    .foregroundStyle(.primary)
                     .font(.subheadline)
                     .bold()
                     .lineLimit(1)
                 
                 Text(transaction.category)
+                    .foregroundStyle(.red)
                     .font(.footnote)
                     .opacity(0.7)
                     .lineLimit(1)
